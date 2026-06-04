@@ -1,0 +1,229 @@
+{
+  "summary": {
+    "action_counts": {
+      "ADD": 4634,
+      "EMPTY_RESULT": 203,
+      "UPDATE": 773,
+      "DELETE": 268
+    },
+    "api_stats": {
+      "add_api_calls": 1696,
+      "messages_sent": 11764,
+      "graph_relations_added": 0,
+      "graph_relations_deleted": 0
+    },
+    "usage_stats": {
+      "enabled": true,
+      "llm_calls": 9967,
+      "llm_failures": 0,
+      "prompt_tokens": 4697022,
+      "completion_tokens": 913982,
+      "total_tokens": 5611004,
+      "tokens_per_call": 562.9581619343835,
+      "total_latency_s": 19225.927,
+      "avg_latency_s": 1.929,
+      "min_latency_s": 0.1046,
+      "max_latency_s": 43.722,
+      "per_model": {
+        "gpt-4o-mini": {
+          "calls": 3217,
+          "prompt_tokens": 4637649,
+          "completion_tokens": 913982,
+          "total_tokens": 5551631,
+          "total_latency": 17299.00284271012
+        },
+        "text-embedding-3-small": {
+          "calls": 6750,
+          "prompt_tokens": 59373,
+          "completion_tokens": 0,
+          "total_tokens": 59373,
+          "total_latency": 1926.9241743073799
+        }
+      }
+    }
+  },
+  "per_user_action_counts": {
+    "Caroline_0": {
+      "ADD": 203,
+      "EMPTY_RESULT": 4,
+      "UPDATE": 43,
+      "DELETE": 6
+    },
+    "Joanna_3": {
+      "ADD": 239,
+      "UPDATE": 32,
+      "DELETE": 9,
+      "EMPTY_RESULT": 9
+    },
+    "Calvin_9": {
+      "ADD": 221,
+      "UPDATE": 47,
+      "EMPTY_RESULT": 11,
+      "DELETE": 9
+    },
+    "John_2": {
+      "ADD": 267,
+      "UPDATE": 41,
+      "EMPTY_RESULT": 10,
+      "DELETE": 8
+    },
+    "Audrey_5": {
+      "ADD": 284,
+      "UPDATE": 78,
+      "EMPTY_RESULT": 5,
+      "DELETE": 51
+    },
+    "Deborah_7": {
+      "ADD": 272,
+      "EMPTY_RESULT": 13,
+      "UPDATE": 21,
+      "DELETE": 6
+    },
+    "Evan_8": {
+      "ADD": 190,
+      "EMPTY_RESULT": 13,
+      "UPDATE": 36,
+      "DELETE": 6
+    },
+    "Tim_4": {
+      "ADD": 262,
+      "UPDATE": 34,
+      "EMPTY_RESULT": 16,
+      "DELETE": 8
+    },
+    "James_6": {
+      "ADD": 314,
+      "UPDATE": 36,
+      "EMPTY_RESULT": 11,
+      "DELETE": 23
+    },
+    "Jon_1": {
+      "ADD": 133,
+      "UPDATE": 38,
+      "EMPTY_RESULT": 3,
+      "DELETE": 7
+    },
+    "Sam_8": {
+      "ADD": 185,
+      "UPDATE": 31,
+      "EMPTY_RESULT": 14,
+      "DELETE": 16
+    },
+    "Jolene_7": {
+      "ADD": 272,
+      "EMPTY_RESULT": 7,
+      "UPDATE": 38,
+      "DELETE": 10
+    },
+    "Maria_2": {
+      "ADD": 242,
+      "UPDATE": 32,
+      "EMPTY_RESULT": 16,
+      "DELETE": 8
+    },
+    "Dave_9": {
+      "ADD": 235,
+      "EMPTY_RESULT": 11,
+      "DELETE": 14,
+      "UPDATE": 47
+    },
+    "Andrew_5": {
+      "ADD": 236,
+      "UPDATE": 44,
+      "DELETE": 35,
+      "EMPTY_RESULT": 10
+    },
+    "John_4": {
+      "ADD": 283,
+      "UPDATE": 43,
+      "EMPTY_RESULT": 11,
+      "DELETE": 9
+    },
+    "Nate_3": {
+      "ADD": 237,
+      "UPDATE": 40,
+      "EMPTY_RESULT": 9,
+      "DELETE": 10
+    },
+    "Melanie_0": {
+      "EMPTY_RESULT": 5,
+      "ADD": 173,
+      "DELETE": 8,
+      "UPDATE": 27
+    },
+    "Gina_1": {
+      "ADD": 128,
+      "UPDATE": 29,
+      "EMPTY_RESULT": 10,
+      "DELETE": 15
+    },
+    "John_6": {
+      "ADD": 258,
+      "UPDATE": 36,
+      "EMPTY_RESULT": 15,
+      "DELETE": 10
+    }
+  },
+  "per_conversation_action_counts": {
+    "0": {
+      "ADD": 376,
+      "EMPTY_RESULT": 9,
+      "UPDATE": 70,
+      "DELETE": 14
+    },
+    "3": {
+      "ADD": 476,
+      "UPDATE": 72,
+      "DELETE": 19,
+      "EMPTY_RESULT": 18
+    },
+    "9": {
+      "ADD": 456,
+      "EMPTY_RESULT": 22,
+      "UPDATE": 94,
+      "DELETE": 23
+    },
+    "2": {
+      "ADD": 509,
+      "UPDATE": 73,
+      "EMPTY_RESULT": 26,
+      "DELETE": 16
+    },
+    "5": {
+      "ADD": 520,
+      "UPDATE": 122,
+      "DELETE": 86,
+      "EMPTY_RESULT": 15
+    },
+    "7": {
+      "ADD": 544,
+      "EMPTY_RESULT": 20,
+      "UPDATE": 59,
+      "DELETE": 16
+    },
+    "8": {
+      "ADD": 375,
+      "EMPTY_RESULT": 27,
+      "UPDATE": 67,
+      "DELETE": 22
+    },
+    "4": {
+      "ADD": 545,
+      "UPDATE": 77,
+      "EMPTY_RESULT": 27,
+      "DELETE": 17
+    },
+    "6": {
+      "ADD": 572,
+      "UPDATE": 72,
+      "EMPTY_RESULT": 26,
+      "DELETE": 33
+    },
+    "1": {
+      "ADD": 261,
+      "UPDATE": 67,
+      "EMPTY_RESULT": 13,
+      "DELETE": 22
+    }
+  }
+}

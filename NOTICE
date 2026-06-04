@@ -1,0 +1,13 @@
+SAGE
+Copyright 2026 Sijia Wang
+
+This product includes software originally developed as part of mem0
+(<https://github.com/mem0ai/mem0>), Copyright 2023 Taranjeet Singh, licensed
+under the Apache License, Version 2.0.
+
+This repository is a modified fork of mem0. The modifications and additions in
+this repository -- principally the SAGE adaptive novelty-gating memory
+contribution (mem0/memory/novelty_gate.py and the enable_sage path in
+mem0/memory/main.py), the write-side usage instrumentation, and the LOCOMO
+evaluation harness under evaluation/ -- are Copyright 2026 Scarlett Wang and are
+likewise licensed under the Apache License, Version 2.0.

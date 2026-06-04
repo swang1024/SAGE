@@ -1,0 +1,2785 @@
+{
+    "1": [
+        {
+            "question": "How do Jon and Gina both like to destress?",
+            "answer": "by dancing",
+            "response": "Dancing",
+            "category": "4",
+            "bleu_score": 0.36787944117144233,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Jon start expanding his studio's social media presence?",
+            "answer": "April, 2023",
+            "response": "3 April, 2023",
+            "category": "2",
+            "bleu_score": 0.75,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "Why did Gina decide to start her own clothing store?",
+            "answer": "She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.",
+            "response": "To take control of her destiny.",
+            "category": "1",
+            "bleu_score": 0.03275412299604346,
+            "f1_score": 0.14814814814814814,
+            "llm_score": 0
+        },
+        {
+            "question": "Do Jon and Gina start businesses out of what they love?",
+            "answer": "Yes",
+            "response": "Yes, they do.",
+            "category": "1",
+            "bleu_score": 0.2,
+            "f1_score": 0.5,
+            "llm_score": 1
+        },
+        {
+            "question": "Did Jon and Gina both participate in dance competitions?",
+            "answer": "Yes",
+            "response": "Yes, both participated.",
+            "category": "1",
+            "bleu_score": 0.2,
+            "f1_score": 0.5,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Gina design a limited collection of hoodies?",
+            "answer": "June 2023",
+            "response": "14 June 2023",
+            "category": "2",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Jon visit networking events for his store?",
+            "answer": "20 June, 2023",
+            "response": "21 July, 2023",
+            "category": "2",
+            "bleu_score": 0.5,
+            "f1_score": 0.3333333333333333,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Gina start being recognized by fashion editors?",
+            "answer": "July 2023",
+            "response": "2 July, 2023",
+            "category": "2",
+            "bleu_score": 0.5,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "What is Gina's favorite style of dance?",
+            "answer": "Contemporary",
+            "response": "Contemporary dance",
+            "category": "4",
+            "bleu_score": 0.5,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What does Gina say about the dancers in the photo?",
+            "answer": "They look graceful",
+            "response": "Dancers are excited about the studio.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What did Gina find for her clothing store on 1 February, 2023?",
+            "answer": "The perfect spot for her store",
+            "response": "A cool new fashion piece.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What did Gina want her customers to feel in her store?",
+            "answer": "cozy and comfortable",
+            "response": "Cozy and inviting",
+            "category": "4",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What did Jon say about Gina's progress with her store?",
+            "answer": "hard work's paying off",
+            "response": "Jon appreciates Gina's commitment and creativity.",
+            "category": "4",
+            "bleu_score": 0.12500000000000003,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "How is Gina's store doing?",
+            "answer": "The store is doing great.",
+            "response": "Gina's store is doing great.",
+            "category": "4",
+            "bleu_score": 0.7142857142857143,
+            "f1_score": 0.8000000000000002,
+            "llm_score": 1
+        },
+        {
+            "question": "How does Gina stay confident in her business?",
+            "answer": "By reminding herself of her successes and progress, having a support system, and focusing on why she started",
+            "response": "By believing in self-confidence and continuous learning.",
+            "category": "4",
+            "bleu_score": 0.055782540037107455,
+            "f1_score": 0.16666666666666666,
+            "llm_score": 0
+        },
+        {
+            "question": "What kind of professional experience did Gina get accepted for on May 23, 2023?",
+            "answer": "fashion internship",
+            "response": "Fashion internship",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What is Jon offering to the dancers at his dance studio?",
+            "answer": "One-on-one mentoring and training",
+            "response": "One-on-one mentoring and training.",
+            "category": "4",
+            "bleu_score": 0.8,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "How does Jon use the clipboard with a notepad attached to it?",
+            "answer": "To set goals, track achievements, and find areas for improvement",
+            "response": "No relevant information found.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "According to Gina, what makes Jon a perfect mentor and guide?",
+            "answer": "His positivity and determination",
+            "response": "Jon's determination and passion.",
+            "category": "4",
+            "bleu_score": 0.3333333333333333,
+            "f1_score": 0.5,
+            "llm_score": 1
+        }
+    ],
+    "9": [
+        {
+            "question": "When did Dave see Aerosmith perform live?",
+            "answer": "on the weekend before March 26, 2023",
+            "response": "26 March, 2023",
+            "category": "2",
+            "bleu_score": 0.36787944117144233,
+            "f1_score": 0.6,
+            "llm_score": 1
+        },
+        {
+            "question": "Who inspired Dave's passion for car engineering?",
+            "answer": "His Dad",
+            "response": "His dad.",
+            "category": "1",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Dave host a card-playing night with his friends?",
+            "answer": "on the Friday before 22 August, 2023",
+            "response": "22 August, 2023",
+            "category": "2",
+            "bleu_score": 0.36787944117144233,
+            "f1_score": 0.6,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Calvin record a podcast with his friends?",
+            "answer": "21 August, 2023",
+            "response": "22 August, 2023",
+            "category": "2",
+            "bleu_score": 0.75,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Dave have a great jam session with his band?",
+            "answer": "September 14, 2023",
+            "response": "22 September, 2023",
+            "category": "2",
+            "bleu_score": 0.75,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 0
+        },
+        {
+            "question": "What does help Calvin stay connected to the creative process?",
+            "answer": "Calvin stays connected to the creative process by always staying up-to-date on world events and watching documentaries about artists.",
+            "response": "Collaborating with others.",
+            "category": "1",
+            "bleu_score": 0.004578909722183545,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What style of guitars does Calvin own?",
+            "answer": "custom-made yellow guitar with an octopus on it, shiny purple guitar",
+            "response": "Custom with octopus design.",
+            "category": "1",
+            "bleu_score": 0.0986387855766426,
+            "f1_score": 0.28571428571428575,
+            "llm_score": 1
+        },
+        {
+            "question": "What type of cars does Dave work on at his shop?",
+            "answer": "all kinds of cars, from regular maintenance to full restorations of classic cars",
+            "response": "Classic cars",
+            "category": "4",
+            "bleu_score": 0.0024787521766663585,
+            "f1_score": 0.3076923076923077,
+            "llm_score": 0
+        },
+        {
+            "question": "What did Dave open in May 2023?",
+            "answer": "a car shop",
+            "response": "Car maintenance shop",
+            "category": "4",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What gives Dave a sense of achievement and purpose?",
+            "answer": "Fixing up things",
+            "response": "Fixing things gives achievement.",
+            "category": "4",
+            "bleu_score": 0.4,
+            "f1_score": 0.5714285714285715,
+            "llm_score": 1
+        },
+        {
+            "question": "What sports activity is Calvin planning to try after the tour with Frank Ocean?",
+            "answer": "Skiing",
+            "response": "No specific sports activity mentioned.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "How does Calvin describe his process of adding electronic elements to his songs?",
+            "answer": "gives them a fresh vibe",
+            "response": "Not mentioned in memories.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What is Dave's advice to Calvin regarding his dreams?",
+            "answer": "to never forget his dreams",
+            "response": "Pursue passion and dreaming.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What kind of modifications has Dave been working on in the car mod workshop?",
+            "answer": "engine swaps, suspension modifications, and body modifications",
+            "response": "Engine swaps and suspension modifications.",
+            "category": "4",
+            "bleu_score": 0.5054422164271946,
+            "f1_score": 0.9090909090909091,
+            "llm_score": 1
+        },
+        {
+            "question": "What did Calvin and his friends record in August 2023?",
+            "answer": "a podcast discussing the rap industry",
+            "response": "A podcast discussing rap industry.",
+            "category": "4",
+            "bleu_score": 0.8333333333333334,
+            "f1_score": 0.9090909090909091,
+            "llm_score": 1
+        },
+        {
+            "question": "What design is featured on Calvin's guitar?",
+            "answer": "octopus",
+            "response": "Octopus design",
+            "category": "4",
+            "bleu_score": 0.5,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "Where did Dave come back from with insights on car modification on 1st September 2023?",
+            "answer": "San Francisco",
+            "response": "Dave gained insights on car modification.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "How does Dave feel about the reactions of people when they see the finished restoration project?",
+            "answer": "satisfying and worth the hard work",
+            "response": "Satisfaction in their reactions.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What specific location in Tokyo does Calvin mention being excited to explore?",
+            "answer": "Shinjuku",
+            "response": "Shinjuku",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "How does Calvin describe his music in relation to capturing feelings?",
+            "answer": "Express himself and work through his emotions",
+            "response": "Music brings people together.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What is the toughest part of car restoration according to Dave?",
+            "answer": "Paying extra attention to detail",
+            "response": "Not explicitly mentioned.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Calvin first get interested in cars?",
+            "answer": "at an early age",
+            "response": "At age 10.",
+            "category": "4",
+            "bleu_score": 0.5,
+            "f1_score": 0.5714285714285715,
+            "llm_score": 1
+        },
+        {
+            "question": "What did Dave recently start a blog about?",
+            "answer": "Car mods",
+            "response": "Car mods",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What is Dave's way to share his passion with others?",
+            "answer": "Through a blog on car mods",
+            "response": "Through car modifications.",
+            "category": "4",
+            "bleu_score": 0.3032653298563167,
+            "f1_score": 0.4444444444444444,
+            "llm_score": 1
+        },
+        {
+            "question": "What type of music has Dave been getting into lately?",
+            "answer": "Classic rock",
+            "response": "Classic rock music",
+            "category": "4",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "What tools does Calvin use to boost his motivation for music?",
+            "answer": "Writing lyrics and notes",
+            "response": "Writing lyrics",
+            "category": "4",
+            "bleu_score": 0.36787944117144233,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What type of content does Dave post on his blog that inspired others to start their own DIY projects?",
+            "answer": "How he made his car look like a beast",
+            "response": "Car modifications.",
+            "category": "4",
+            "bleu_score": 0.045111761078870896,
+            "f1_score": 0.1818181818181818,
+            "llm_score": 1
+        },
+        {
+            "question": "What event did Calvin attend in Boston?",
+            "answer": "Fancy gala",
+            "response": "Performed in Boston.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        }
+    ],
+    "0": [
+        {
+            "question": "When did Melanie paint a sunrise?",
+            "answer": "2022",
+            "response": "May 2022",
+            "category": "2",
+            "bleu_score": 0.5,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What fields would Caroline be likely to pursue in her educaton?",
+            "answer": "Psychology, counseling certification",
+            "response": "Counseling and mental health.",
+            "category": "3",
+            "bleu_score": 0.2,
+            "f1_score": 0.28571428571428575,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Caroline meet up with her friends, family, and mentors?",
+            "answer": "The week before 9 June 2023",
+            "response": "9 June, 2023",
+            "category": "2",
+            "bleu_score": 0.45489799478447507,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "Where did Caroline move from 4 years ago?",
+            "answer": "Sweden",
+            "response": "Home country",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "Would Caroline likely have Dr. Seuss books on her bookshelf?",
+            "answer": "Yes, since she collects classic children's books",
+            "response": "No evidence of Dr. Seuss books.",
+            "category": "3",
+            "bleu_score": 0.10735389901075512,
+            "f1_score": 0.15384615384615383,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Melanie go camping in June?",
+            "answer": "The week before 27 June 2023",
+            "response": "Melanie went camping on 2 July 2023.",
+            "category": "2",
+            "bleu_score": 0.12500000000000003,
+            "f1_score": 0.15384615384615383,
+            "llm_score": 0
+        },
+        {
+            "question": "What did Melanie paint recently?",
+            "answer": "sunset",
+            "response": "A horse painting.",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What activities has Melanie done with her family?",
+            "answer": "Pottery, painting, camping, museum, swimming, hiking",
+            "response": "Camping trips and exploring nature.",
+            "category": "1",
+            "bleu_score": 0.07243303475117972,
+            "f1_score": 0.1818181818181818,
+            "llm_score": 0
+        },
+        {
+            "question": "How many times has Melanie gone to the beach in 2023?",
+            "answer": "2",
+            "response": "Once or twice.",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What kind of art does Caroline make?",
+            "answer": "abstract art",
+            "response": "Caroline makes paintings.",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Caroline apply to adoption agencies?",
+            "answer": "The week of 23 August 2023",
+            "response": "23 August, 2023",
+            "category": "2",
+            "bleu_score": 0.45489799478447507,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What symbols are important to Caroline?",
+            "answer": "Rainbow flag, transgender symbol",
+            "response": "Eagle and rainbow flag.",
+            "category": "1",
+            "bleu_score": 0.4,
+            "f1_score": 0.5,
+            "llm_score": 1
+        },
+        {
+            "question": "What instruments does Melanie play?",
+            "answer": "clarinet and violin",
+            "response": "Violin and clarinet.",
+            "category": "1",
+            "bleu_score": 0.75,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Melanie go to the park?",
+            "answer": "27 August 2023",
+            "response": "12 September 2023",
+            "category": "2",
+            "bleu_score": 0.3333333333333333,
+            "f1_score": 0.3333333333333333,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Melanie's friend adopt a child?",
+            "answer": "2022",
+            "response": "October 20, 2023",
+            "category": "2",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Melanie get hurt?",
+            "answer": "September 2023",
+            "response": "13 September, 2023",
+            "category": "2",
+            "bleu_score": 0.5,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "How does Melanie prioritize self-care?",
+            "answer": "by carving out some me-time each day for activities like running, reading, or playing the violin",
+            "response": "Carves out me-time each day.",
+            "category": "4",
+            "bleu_score": 0.09022352215774179,
+            "f1_score": 0.38095238095238093,
+            "llm_score": 1
+        },
+        {
+            "question": "What does Melanie think about Caroline's decision to adopt?",
+            "answer": "she thinks Caroline is doing something amazing and will be an awesome mom",
+            "response": "Melanie is happy for Caroline.",
+            "category": "4",
+            "bleu_score": 0.10380107463819924,
+            "f1_score": 0.2222222222222222,
+            "llm_score": 1
+        },
+        {
+            "question": "What workshop did Caroline attend recently?",
+            "answer": "LGBTQ+ counseling workshop",
+            "response": "LGBTQ+ counseling workshop",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What was Melanie's favorite book from her childhood?",
+            "answer": "\"Charlotte's Web\"",
+            "response": "\"Charlotte's Web\"",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What do sunflowers represent according to Caroline?",
+            "answer": "warmth and happiness",
+            "response": "Warmth and happiness",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Why did Melanie choose to use colors and patterns in her pottery project?",
+            "answer": "She wanted to catch the eye and make people smile.",
+            "response": "To express emotions and creativity.",
+            "category": "4",
+            "bleu_score": 0.21729910425353913,
+            "f1_score": 0.26666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What precautionary sign did Melanie see at the caf\u00e9?",
+            "answer": "A sign stating that someone is not being able to leave",
+            "response": "No information available.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What painting did Melanie show to Caroline on October 13, 2023?",
+            "answer": "A painting inspired by sunsets with a pink sky.",
+            "response": "Abstract painting",
+            "category": "4",
+            "bleu_score": 0.00915781944436709,
+            "f1_score": 0.2,
+            "llm_score": 0
+        },
+        {
+            "question": "What did the posters at the poetry reading say?",
+            "answer": "\"Trans Lives Matter\"",
+            "response": "The memories do not specify what the posters at the poetry reading said.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What does Caroline's drawing symbolize for her?",
+            "answer": "Freedom and being true to herself.",
+            "response": "Freedom and pride.",
+            "category": "4",
+            "bleu_score": 0.354274914555761,
+            "f1_score": 0.4444444444444444,
+            "llm_score": 1
+        },
+        {
+            "question": "How do Melanie and Caroline describe their journey through life together?",
+            "answer": "An ongoing adventure of learning and growing.",
+            "response": "Supportive and community-focused.",
+            "category": "4",
+            "bleu_score": 0.18393972058572117,
+            "f1_score": 0.2,
+            "llm_score": 0
+        },
+        {
+            "question": "How did Melanie's son handle the accident?",
+            "answer": "He was scared but reassured by his family",
+            "response": "He was scared but reassured.",
+            "category": "4",
+            "bleu_score": 0.5971094254781577,
+            "f1_score": 0.7692307692307693,
+            "llm_score": 1
+        },
+        {
+            "question": "How did Melanie feel after the accident?",
+            "answer": "Grateful and thankful for her family",
+            "response": "Melanie's family was scared.",
+            "category": "4",
+            "bleu_score": 0.16666666666666669,
+            "f1_score": 0.2,
+            "llm_score": 0
+        },
+        {
+            "question": "What did Melanie do after the road trip to relax?",
+            "answer": "Went on a nature walk or hike",
+            "response": "Values relaxation after travel.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        }
+    ],
+    "5": [
+        {
+            "question": "What kind of indoor activities has Andrew pursued with his girlfriend?",
+            "answer": "boardgames, volunteering at pet shelter, wine tasting, growing flowers",
+            "response": "Board games and doggy daycare.",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "How many years passed between Audrey adopting Pixie and her other three dogs?",
+            "answer": "three years",
+            "response": "Three years.",
+            "category": "2",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "When is Andrew going to go hiking with Audrey?",
+            "answer": "August",
+            "response": "Saturday, 4 November 2023",
+            "category": "2",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "How many times did Audrey and Andew plan to hike together?",
+            "answer": "three times",
+            "response": "Three times.",
+            "category": "1",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What is an indoor activity that Andrew would enjoy doing while make his dog happy?",
+            "answer": "cook dog treats",
+            "response": "Doggy daycare activities.",
+            "category": "3",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "Which meat does Audrey prefer eating more than others?",
+            "answer": "chicken",
+            "response": "Chicken",
+            "category": "3",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What are the classes that Audrey took for her dogs to?",
+            "answer": "Positive reinforcement training class for bonding, dog training course, agility class",
+            "response": "Dog training and agility classes.",
+            "category": "1",
+            "bleu_score": 0.15570161195729887,
+            "f1_score": 0.42857142857142855,
+            "llm_score": 1
+        },
+        {
+            "question": "How many pets did Andrew have, as of September 2023?",
+            "answer": "one",
+            "response": "Five pets.",
+            "category": "2",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What kind of pastries did Andrew and his girlfriend have at the cafe?",
+            "answer": "croissants, muffins, and tarts",
+            "response": "Croissants, muffins, and tarts.",
+            "category": "4",
+            "bleu_score": 0.8571428571428571,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Why did Audrey think positive reinforcement training is important for pets?",
+            "answer": "To have pets learn how to behave in a positive way",
+            "response": "Believes in positive reinforcement.",
+            "category": "4",
+            "bleu_score": 0.12047768476488081,
+            "f1_score": 0.28571428571428575,
+            "llm_score": 0
+        },
+        {
+            "question": "What outdoor activities does Andrew plan on trying after the rock climbing class?",
+            "answer": "kayaking and bungee jumping",
+            "response": "Kayaking and bungee jumping.",
+            "category": "4",
+            "bleu_score": 0.8,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "How long does Audrey typically walk her dogs for?",
+            "answer": "about an hour",
+            "response": "About an hour.",
+            "category": "4",
+            "bleu_score": 0.75,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What are some of the personalities of Audrey's four fur babies?",
+            "answer": "oldest is relaxed, second is playful, third can be naughty but loves cuddles, youngest is full of life",
+            "response": "Relaxed, playful, naughty, adventurous.",
+            "category": "4",
+            "bleu_score": 0.14768375640314554,
+            "f1_score": 0.3,
+            "llm_score": 1
+        },
+        {
+            "question": "What did Audrey do to give her dogs extra comfort as the weather cooled down?",
+            "answer": "Got new beds for them",
+            "response": "Got new beds for them.",
+            "category": "4",
+            "bleu_score": 0.8333333333333334,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What did Andrew learn from reading books about ecological systems?",
+            "answer": "about animals, plants, and ecosystems and how they work together",
+            "response": "Learned about animals, plants, ecosystems.",
+            "category": "4",
+            "bleu_score": 0.45489799478447507,
+            "f1_score": 0.5714285714285714,
+            "llm_score": 1
+        },
+        {
+            "question": "Why does Audrey make jewelry out of recycled objects?",
+            "answer": "To show love for creativity and sustainability",
+            "response": "To express creativity and sustainability.",
+            "category": "4",
+            "bleu_score": 0.5643211499270759,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What type of games do Audrey's dogs like to play at the park?",
+            "answer": "Fetch and Frisbee",
+            "response": "Fetch and Frisbee",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "How does Audrey describe her dogs' response to snow?",
+            "answer": "They definitely prefer nice, sunny days in the grass.",
+            "response": "Audrey's dogs hate snow.",
+            "category": "4",
+            "bleu_score": 0.07243303475117972,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What aspect of autumn does Andrew find beautiful?",
+            "answer": "The autumn colors",
+            "response": "Autumn colors",
+            "category": "4",
+            "bleu_score": 0.6065306597126334,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "What is Andrew planning to do with Scout, Toby, and Buddy?",
+            "answer": "Take them to a nearby park",
+            "response": "Take them to a nearby park.",
+            "category": "4",
+            "bleu_score": 0.8571428571428571,
+            "f1_score": 1.0,
+            "llm_score": 1
+        }
+    ],
+    "4": [
+        {
+            "question": "what are John's goals with regards to his basketball career?",
+            "answer": "improve shooting percentage, win a championship",
+            "response": "Improve shooting percentage.",
+            "category": "1",
+            "bleu_score": 0.354274914555761,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What are John's goals for his career that are not related to his basketball skills?",
+            "answer": "get endorsements, build his brand, do charity work",
+            "response": "Helping people through charity.",
+            "category": "1",
+            "bleu_score": 0.07357588823428847,
+            "f1_score": 0.16666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What books has Tim read?",
+            "answer": "Harry Potter, Game of Thrones, the Name of the Wind, The Alchemist, The Hobbit, A Dance with Dragons, and the Wheel of Time.",
+            "response": "'The Alchemist', 'The Name of the Wind'",
+            "category": "1",
+            "bleu_score": 0.08120116994196762,
+            "f1_score": 0.2608695652173913,
+            "llm_score": 0
+        },
+        {
+            "question": "Which endorsement deals has John been offered?",
+            "answer": "basketball shoes and gear deal with Nike, potential sponsorship with Gatorade, Moxie a popular beverage company, outdoor gear company",
+            "response": "Nike and Gatorade deals",
+            "category": "1",
+            "bleu_score": 0.008331747403681729,
+            "f1_score": 0.3,
+            "llm_score": 1
+        },
+        {
+            "question": "What kind of writing does Tim do?",
+            "answer": "comments on favorite books in a fantasy literature forum, articles on fantasy novels, studying characters, themes, and making book recommendations, writing a fantasy novel",
+            "response": "Fantasy writing",
+            "category": "1",
+            "bleu_score": 1.3709590863840845e-06,
+            "f1_score": 0.18181818181818182,
+            "llm_score": 1
+        },
+        {
+            "question": "Which city was John in before traveling to Chicago?",
+            "answer": "Seattle",
+            "response": "New York City",
+            "category": "2",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "When did John meet with his teammates after returning from Chicago?",
+            "answer": "August 15, 2023",
+            "response": "17 August, 2023",
+            "category": "2",
+            "bleu_score": 0.75,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 0
+        },
+        {
+            "question": "When is Tim attending a book conference?",
+            "answer": "September 2023",
+            "response": "September 2023",
+            "category": "2",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Where was John between August 11 and August 15 2023?",
+            "answer": "Chicago",
+            "response": "In New York City.",
+            "category": "2",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "Which popular music composer's tunes does Tim enjoy playing on the piano?",
+            "answer": "John Williams",
+            "response": "Tim enjoys playing film scores.",
+            "category": "3",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What schools did John play basketball in and how many years was he with his team during high school?",
+            "answer": "Middle school, high school, and college and he was with his high school team for 4 years.",
+            "response": "Four years in high school.",
+            "category": "1",
+            "bleu_score": 0.06464797857627003,
+            "f1_score": 0.33333333333333337,
+            "llm_score": 0
+        },
+        {
+            "question": "What month did Tim plan on going to Universal Studios?",
+            "answer": "September, 2023",
+            "response": "No specific month mentioned.",
+            "category": "2",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "Which book was John reading during his recovery from an ankle injury?",
+            "answer": "The Alchemist",
+            "response": "An inspiring book.",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What kind of yoga for building core strength might John benefit from?",
+            "answer": "Hatha Yoga",
+            "response": "Warrior II pose",
+            "category": "3",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What does John do to supplement his basketball training?",
+            "answer": "Yoga, strength training",
+            "response": "Strength training",
+            "category": "1",
+            "bleu_score": 0.36787944117144233,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "When did John attend the Harry Potter trivia?",
+            "answer": "August 2023.",
+            "response": "8 December, 2023",
+            "category": "2",
+            "bleu_score": 0.25,
+            "f1_score": 0.4,
+            "llm_score": 0
+        },
+        {
+            "question": "What does John do to share his knowledge?",
+            "answer": "gives seminars, mentors younger players.",
+            "response": "John does seminars.",
+            "category": "1",
+            "bleu_score": 0.23618327637050734,
+            "f1_score": 0.25,
+            "llm_score": 1
+        },
+        {
+            "question": "What aspects of the Harry Potter universe will be discussed in John's fan project collaborations?",
+            "answer": "characters, spells, magical creatures",
+            "response": "Characters, spells, magical creatures.",
+            "category": "4",
+            "bleu_score": 0.8571428571428571,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What kind of deals did John sign with Nike and Gatorade?",
+            "answer": "basketball shoe and gear deal with Nike, potential sponsorship deal with Gatorade",
+            "response": "Basketball shoe and gear deals.",
+            "category": "4",
+            "bleu_score": 0.20760214927639847,
+            "f1_score": 0.5333333333333333,
+            "llm_score": 1
+        },
+        {
+            "question": "How long has John been surfing?",
+            "answer": "five years",
+            "response": "Five years",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Which movie does Tim mention they enjoy watching during Thanksgiving?",
+            "answer": "\"Home Alone\"",
+            "response": "Home Alone",
+            "category": "4",
+            "bleu_score": 0.36787944117144233,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Where are John and his teammates planning to explore on a team trip?",
+            "answer": "a new city",
+            "response": "A new city",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What city did Tim suggest to John for the team trip next month?",
+            "answer": "Edinburgh, Scotland",
+            "response": "New city",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What has John been able to help the younger players achieve?",
+            "answer": "reach their goals",
+            "response": "Reach their goals.",
+            "category": "4",
+            "bleu_score": 0.75,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "How did \"The Alchemist\" impact John's perspective on following dreams?",
+            "answer": "made him think again about following dreams and searching for personal legends",
+            "response": "Inspired and motivated him.",
+            "category": "4",
+            "bleu_score": 0.0986387855766426,
+            "f1_score": 0.25,
+            "llm_score": 1
+        },
+        {
+            "question": "How long has Tim been playing the piano for, as of December 2023?",
+            "answer": "about four months",
+            "response": "About four months.",
+            "category": "4",
+            "bleu_score": 0.75,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What type of seminars is John conducting?",
+            "answer": "Sports and marketing seminars",
+            "response": "Sports and marketing seminars.",
+            "category": "4",
+            "bleu_score": 0.8,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Why does John like Aragorn from Lord of the Rings?",
+            "answer": "brave, selfless, down-to-earth attitude",
+            "response": "Inspired by his brave, selfless attitude.",
+            "category": "4",
+            "bleu_score": 0.5,
+            "f1_score": 0.6,
+            "llm_score": 1
+        },
+        {
+            "question": "What is the painting of Aragorn a reminder for John to be in everything he does?",
+            "answer": "be a leader",
+            "response": "A leader in everything he does.",
+            "category": "4",
+            "bleu_score": 0.2857142857142857,
+            "f1_score": 0.4444444444444444,
+            "llm_score": 1
+        },
+        {
+            "question": "Where will Tim be going for a semester abroad?",
+            "answer": "Ireland",
+            "response": "Ireland",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Which city in Ireland will Tim be staying in during his semester abroad?",
+            "answer": "Galway",
+            "response": "Galway",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What was Johns's reaction to sealing the deal with the beverage company?",
+            "answer": "crazy feeling, sense of accomplishment",
+            "response": "Felt crazy to seal the deal.",
+            "category": "4",
+            "bleu_score": 0.14285714285714285,
+            "f1_score": 0.1818181818181818,
+            "llm_score": 1
+        }
+    ],
+    "7": [
+        {
+            "question": "When did Jolene`s mother pass away?",
+            "answer": "in 2022",
+            "response": "2022",
+            "category": "2",
+            "bleu_score": 0.36787944117144233,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What symbolic gifts do Deborah and Jolene have from their mothers?",
+            "answer": "pendants",
+            "response": "Pendant and amulet.",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What helped Deborah find peace when grieving deaths of her loved ones?",
+            "answer": "yoga, old photos, the roses and dahlias in a flower garden, nature",
+            "response": "Nature and yoga helped Deborah.",
+            "category": "1",
+            "bleu_score": 0.11156508007421491,
+            "f1_score": 0.35294117647058826,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Deborah's father pass away?",
+            "answer": "January 25, 2023",
+            "response": "January 2023",
+            "category": "2",
+            "bleu_score": 0.36787944117144233,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "Is Deborah married?",
+            "answer": "yes",
+            "response": "Yes, Deborah is married.",
+            "category": "3",
+            "bleu_score": 0.16666666666666669,
+            "f1_score": 0.4,
+            "llm_score": 1
+        },
+        {
+            "question": "What pets does Jolene have?",
+            "answer": "snakes",
+            "response": "Jolene has a pet snake named Jolene and a cat named Luna.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Jolene buy her pet Seraphim?",
+            "answer": "in 2022",
+            "response": "Last year (2022).",
+            "category": "2",
+            "bleu_score": 0.16666666666666669,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Why did Jolene sometimes put off doing yoga?",
+            "answer": "She's more interested in playing video games",
+            "response": "Finding time for hobbies.",
+            "category": "3",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Deborah go for her first morning jog in a nearby park?",
+            "answer": "24 February, 2023",
+            "response": "25 February, 2023",
+            "category": "2",
+            "bleu_score": 0.75,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Deborah start the yoga class in the neighborhood?",
+            "answer": "Friday before 13 March, 2023",
+            "response": "13 March, 2023",
+            "category": "2",
+            "bleu_score": 0.6065306597126334,
+            "f1_score": 0.7499999999999999,
+            "llm_score": 1
+        },
+        {
+            "question": "What music pieces does Deborah listen to during her yoga practice?",
+            "answer": "Savana, Sleep",
+            "response": "Deborah listens to an album called 'Sleep'.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Deborah go to an art show with Anna?",
+            "answer": "on 9 April, 2023",
+            "response": "9 April, 2023",
+            "category": "2",
+            "bleu_score": 0.7788007830714049,
+            "f1_score": 0.8571428571428571,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Jolene do yoga at Talkeetna?",
+            "answer": "on 5 June, 2023",
+            "response": "6 June, 2023",
+            "category": "2",
+            "bleu_score": 0.5841005873035536,
+            "f1_score": 0.5714285714285715,
+            "llm_score": 0
+        },
+        {
+            "question": "What games does Jolene recommend for Deborah?",
+            "answer": "Zelda BOTW for Switch , Animal Crossing: New Horizons, Overcooked 2",
+            "response": "Animal Crossing: New Horizons, Zelda BOTW",
+            "category": "4",
+            "bleu_score": 0.5352614285189903,
+            "f1_score": 0.7499999999999999,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Deborah go to a community meetup?",
+            "answer": "last week of August 2023",
+            "response": "3 September, 2023",
+            "category": "2",
+            "bleu_score": 0.19470019576785122,
+            "f1_score": 0.25,
+            "llm_score": 0
+        },
+        {
+            "question": "When did the Deboran and Jolene agree to go surfing?",
+            "answer": "in October 2023",
+            "response": "22 March, 2023",
+            "category": "2",
+            "bleu_score": 0.25,
+            "f1_score": 0.3333333333333333,
+            "llm_score": 0
+        },
+        {
+            "question": "What are Jolene's favorite books?",
+            "answer": "Sapiens, Avalanche by Neal Stephenson",
+            "response": "Jolene's favorite book is \"Jolene.\"",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What projects is Jolene planning for next year?",
+            "answer": "developing renewable energy finding ways to supply clean water to those with limited access",
+            "response": "No specific projects mentioned.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "Where did Deborah get her cats?",
+            "answer": "Luna is from the shelter and Max is her mother's cat",
+            "response": "No specific location mentioned.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What project did Jolene finish last week before 23 January, 2023?",
+            "answer": "an electrical engineering project",
+            "response": "Engineering project",
+            "category": "4",
+            "bleu_score": 0.36787944117144233,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What project was Jolene working on as of 1 February, 2023?",
+            "answer": "Robotics project",
+            "response": "Engineering project",
+            "category": "4",
+            "bleu_score": 0.5,
+            "f1_score": 0.5,
+            "llm_score": 0
+        },
+        {
+            "question": "Where did Deborah meet her new neighbor Anna?",
+            "answer": "yoga in the park",
+            "response": "At yoga in the park.",
+            "category": "4",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 0.888888888888889,
+            "llm_score": 1
+        },
+        {
+            "question": "What new outlook did Jolene gain after her mini retreat on 9 February, 2023?",
+            "answer": "A confidence boost",
+            "response": "A new outlook on life.",
+            "category": "4",
+            "bleu_score": 0.16666666666666669,
+            "f1_score": 0.25,
+            "llm_score": 1
+        },
+        {
+            "question": "What gave Deborah peace in the garden she visited?",
+            "answer": "Roses and dahlias",
+            "response": "Roses and dahlias.",
+            "category": "4",
+            "bleu_score": 0.75,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What is one of Jolene's favorite dishes?",
+            "answer": "lasagna",
+            "response": "Lasagna",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What picture did Jolene share related to feeling overwhelmed?",
+            "answer": "a photo of a desk with a notebook and a computer monitor",
+            "response": "No specific picture mentioned.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "How does Jolene describe the time spent with her snakes and partner?",
+            "answer": "Valuable and relaxing",
+            "response": "Calming and relaxing experience.",
+            "category": "4",
+            "bleu_score": 0.4,
+            "f1_score": 0.5714285714285715,
+            "llm_score": 1
+        },
+        {
+            "question": "How did Jolene come to have her pet, Susie?",
+            "answer": "She adopted her two years ago when feeling lonely.",
+            "response": "Adopted Susie when feeling lonely.",
+            "category": "4",
+            "bleu_score": 0.4278475991938267,
+            "f1_score": 0.5714285714285714,
+            "llm_score": 1
+        },
+        {
+            "question": "Which yoga pose is Jolene a fan of for rest and calmness?",
+            "answer": "savasana (the corpse pose)",
+            "response": "Savasana (the corpse pose)",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What was the video game console that Jolene's parents got her at age 10?",
+            "answer": "nintendo game console",
+            "response": "Not specified in memories.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "Where did Jolene and her partner travel for a few weeks in September 2023?",
+            "answer": "Phuket",
+            "response": "Phuket",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "How did Jolene feel about her progress in practicing mindfulness and gratitude?",
+            "answer": "experiencing a new level of joy and happiness",
+            "response": "Jolene felt grateful and alive.",
+            "category": "4",
+            "bleu_score": 0.11942188509563156,
+            "f1_score": 0.15384615384615385,
+            "llm_score": 1
+        },
+        {
+            "question": "What did Jolene recently play that she described to Deb?",
+            "answer": "a card game about cats",
+            "response": "'It Takes Two' game",
+            "category": "4",
+            "bleu_score": 0.2,
+            "f1_score": 0.22222222222222224,
+            "llm_score": 0
+        },
+        {
+            "question": "What new activity did Deborah and her neighbor organize for the community on 16 September, 2023?",
+            "answer": "Free gardening class",
+            "response": "Free gardening class.",
+            "category": "4",
+            "bleu_score": 0.75,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What was Deborah's mom passionate about?",
+            "answer": "Cooking",
+            "response": "Cooking",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What kind of cookies did Jolene used to bake with someone close to her?",
+            "answer": "Chocolate chip cookies",
+            "response": "Warm, gooey chocolate cookies.",
+            "category": "4",
+            "bleu_score": 0.3333333333333333,
+            "f1_score": 0.5714285714285715,
+            "llm_score": 1
+        }
+    ],
+    "6": [
+        {
+            "question": "Which places or events have John and James planned to meet at?",
+            "answer": "VR Club, McGee's, baseball game",
+            "response": "McGee's Pub",
+            "category": "1",
+            "bleu_score": 0.12591706855837456,
+            "f1_score": 0.28571428571428575,
+            "llm_score": 1
+        },
+        {
+            "question": "What are John and James' favorite games?",
+            "answer": "John's favorite game is CS:GO, and James's is Apex Legends.",
+            "response": "Apex Legends and Mario",
+            "category": "1",
+            "bleu_score": 0.03734030127589796,
+            "f1_score": 0.46153846153846156,
+            "llm_score": 0
+        },
+        {
+            "question": "What are the names of James's dogs?",
+            "answer": "Ned, Daisy, Max",
+            "response": "Max, Daisy, Ned, Luna",
+            "category": "1",
+            "bleu_score": 0.7142857142857143,
+            "f1_score": 0.8571428571428571,
+            "llm_score": 1
+        },
+        {
+            "question": "When did James buy himself a new adventure book?",
+            "answer": "April 26, 2022",
+            "response": "26 April, 2022",
+            "category": "2",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Which countries has James visited?",
+            "answer": "Italy, Mexico, Turkey, Canada, Greenland",
+            "response": "Italy, Turkey, Mexico, Nuuk",
+            "category": "1",
+            "bleu_score": 0.6441233940645307,
+            "f1_score": 0.6666666666666665,
+            "llm_score": 1
+        },
+        {
+            "question": "Did John and James study together?",
+            "answer": "Yes",
+            "response": "No evidence of studying together.",
+            "category": "3",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "Which countries did James visit in July 2022?",
+            "answer": "Canada, Greenland",
+            "response": "Nuuk",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "Who is Jill?",
+            "answer": "Most likely John's partner.",
+            "response": "James's friend.",
+            "category": "3",
+            "bleu_score": 0.3032653298563167,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "When did John start his job in IT?",
+            "answer": "2019",
+            "response": "August 2022",
+            "category": "2",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What kind of tricks do James's pets know?",
+            "answer": "swimming, catching frisbees, balancing on a skateboard, sit, stay, paw, and rollover",
+            "response": "Sit, stay, paw, rollover.",
+            "category": "1",
+            "bleu_score": 0.2506916972526663,
+            "f1_score": 0.5,
+            "llm_score": 1
+        },
+        {
+            "question": "When did James meet Samantha?",
+            "answer": "August 9, 2022",
+            "response": "4 September, 2022",
+            "category": "2",
+            "bleu_score": 0.5,
+            "f1_score": 0.3333333333333333,
+            "llm_score": 0
+        },
+        {
+            "question": "When did John plan his next meeting with his siblings?",
+            "answer": "In September, 2022",
+            "response": "September 2022",
+            "category": "2",
+            "bleu_score": 0.36787944117144233,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "What kind of beer does McGee's bar serve?",
+            "answer": "Stout, lager",
+            "response": "Not mentioned in memories.",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "When did John start working on his 2D Adventure mobile game?",
+            "answer": "approximately summer of 2022",
+            "response": "September 2022",
+            "category": "2",
+            "bleu_score": 0.18393972058572117,
+            "f1_score": 0.3333333333333333,
+            "llm_score": 0
+        },
+        {
+            "question": "What kind of programming-related events has John hosted?",
+            "answer": "online programming competition, programming seminar",
+            "response": "Online competition and seminar.",
+            "category": "1",
+            "bleu_score": 0.49123845184678916,
+            "f1_score": 0.75,
+            "llm_score": 1
+        },
+        {
+            "question": "When did John and his programming friends host an online programming competition?",
+            "answer": "Last week before 13 October 2022.",
+            "response": "6 October, 2022",
+            "category": "2",
+            "bleu_score": 0.23618327637050734,
+            "f1_score": 0.4444444444444444,
+            "llm_score": 1
+        },
+        {
+            "question": "When did James' mother and her friend visit him?",
+            "answer": "October 19, 2022",
+            "response": "19 October, 2022",
+            "category": "2",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What did James offer to do for John regarding pets?",
+            "answer": "help find the perfect pet",
+            "response": "Help find a pet.",
+            "category": "4",
+            "bleu_score": 0.6,
+            "f1_score": 0.6666666666666665,
+            "llm_score": 1
+        },
+        {
+            "question": "How long has John been playing the drums as of 27 March, 2022?",
+            "answer": "One month",
+            "response": "One month.",
+            "category": "4",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What game was James playing in the online gaming tournament in April 2022?",
+            "answer": "Apex Legends",
+            "response": "Apex Legends",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What is the name of the pup that was adopted by James?",
+            "answer": "Ned",
+            "response": "Luna",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What kind of assignment was giving John a hard time at work?",
+            "answer": "Coding assignment",
+            "response": "Difficult coding assignment",
+            "category": "4",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "What breed is Daisy, one of James' dogs?",
+            "answer": "Labrador",
+            "response": "Labrador",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "How did John relax in his free time on 9 July, 2022?",
+            "answer": "Reading",
+            "response": "Reading",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What made John leave his IT job?",
+            "answer": "to focus on things that align with his values and passions",
+            "response": "Happy about the decision to leave.",
+            "category": "4",
+            "bleu_score": 0.08067401742967989,
+            "f1_score": 0.11764705882352942,
+            "llm_score": 0
+        },
+        {
+            "question": "Whose phone number did James receive during the beach outing?",
+            "answer": "Samantha",
+            "response": "Samantha's phone number",
+            "category": "4",
+            "bleu_score": 0.25,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What type of beer does John not like?",
+            "answer": "dark beer",
+            "response": "Dark beer",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Where does James get his ideas from?",
+            "answer": "books, movies, dreams",
+            "response": "Books, movies, and dreams.",
+            "category": "4",
+            "bleu_score": 0.7142857142857143,
+            "f1_score": 0.8571428571428571,
+            "llm_score": 1
+        },
+        {
+            "question": "What instrument did James used to play when he was younger?",
+            "answer": "guitar",
+            "response": "Guitar",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What career milestone did John achieve recently in September 2022?",
+            "answer": "making his first mobile game",
+            "response": "Made his first mobile game.",
+            "category": "4",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 0.8000000000000002,
+            "llm_score": 1
+        },
+        {
+            "question": "What does John feel about starting the journey as a programming mentor for game developers?",
+            "answer": "excited and inspired",
+            "response": "Excited to share knowledge.",
+            "category": "4",
+            "bleu_score": 0.2,
+            "f1_score": 0.28571428571428575,
+            "llm_score": 1
+        },
+        {
+            "question": "What sparked James' passion for gaming when he was a kid?",
+            "answer": "Super Mario and The Legend of Zelda games",
+            "response": "Certain games sparked his passion.",
+            "category": "4",
+            "bleu_score": 0.11942188509563156,
+            "f1_score": 0.15384615384615385,
+            "llm_score": 0
+        },
+        {
+            "question": "What did James lose progress on due to a power outage?",
+            "answer": "a game",
+            "response": "A game.",
+            "category": "4",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What was the purpose of the gaming tournament organized by John on 31 October, 2022?",
+            "answer": "To raise money for a children's hospital",
+            "response": "For a good cause.",
+            "category": "4",
+            "bleu_score": 0.21952465443761057,
+            "f1_score": 0.36363636363636365,
+            "llm_score": 0
+        },
+        {
+            "question": "What is the name of John's cousin's dog?",
+            "answer": "Luna",
+            "response": "No information available.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        }
+    ],
+    "3": [
+        {
+            "question": "When did Nate win his first video game tournament?",
+            "answer": "the week before 21Janury, 2022",
+            "response": "Last week of May 2022",
+            "category": "2",
+            "bleu_score": 0.3274923012311928,
+            "f1_score": 0.4000000000000001,
+            "llm_score": 0
+        },
+        {
+            "question": "Which of Joanna's screenplay were rejected from production companies?",
+            "answer": "first screenplay on drama and romance, third screenplay on loss identity and connection",
+            "response": "Joanna's first screenplay.",
+            "category": "1",
+            "bleu_score": 0.06611955528863463,
+            "f1_score": 0.30769230769230765,
+            "llm_score": 0
+        },
+        {
+            "question": "When is Joanna going to make Nate's ice cream for her family?",
+            "answer": "The weekend of 24June, 2022.",
+            "response": "No specific date mentioned.",
+            "category": "2",
+            "bleu_score": 0.13406400920712788,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What kind of writings does Joanna do?",
+            "answer": "Screenplays,books, online blog posts, journal",
+            "response": "Joanna writes scripts and books.",
+            "category": "1",
+            "bleu_score": 0.10108844328543891,
+            "f1_score": 0.1818181818181818,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Nate take time off to chill with his pets?",
+            "answer": "The weekend of 22August, 2022.",
+            "response": "22 August, 2022",
+            "category": "2",
+            "bleu_score": 0.23618327637050734,
+            "f1_score": 0.25,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Joanna's laptop crash?",
+            "answer": "The week before 14September, 2022",
+            "response": "7 October, 2022",
+            "category": "2",
+            "bleu_score": 0.3032653298563167,
+            "f1_score": 0.25,
+            "llm_score": 0
+        },
+        {
+            "question": "What movies have both Joanna and Nate seen?",
+            "answer": "\"Little Women\", \"Lord of the Rings\"",
+            "response": "No specific movies mentioned.",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What is something Nate gave to Joanna that brings her a lot of joy?",
+            "answer": "stuffed toy pup",
+            "response": "A stuffed animal.",
+            "category": "1",
+            "bleu_score": 0.25,
+            "f1_score": 0.3333333333333333,
+            "llm_score": 1
+        },
+        {
+            "question": "What Console does Nate own?",
+            "answer": "A Nintendo Switch; since the game \"Xenoblade 2\" is made for this console.",
+            "response": "No specific console mentioned.",
+            "category": "3",
+            "bleu_score": 0.036287181315765006,
+            "f1_score": 0.11764705882352941,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Nate win a big Valorant tourney?",
+            "answer": "The Saturday before 7November, 2022",
+            "response": "7 November, 2022",
+            "category": "2",
+            "bleu_score": 0.3032653298563167,
+            "f1_score": 0.25,
+            "llm_score": 1
+        },
+        {
+            "question": "Which torunament did Nate win in the beginning of November 2022?",
+            "answer": "Valorant",
+            "response": "Valorant tournament",
+            "category": "2",
+            "bleu_score": 0.5,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What pets does Nate have?",
+            "answer": "A dog and threeturtles.",
+            "response": "Nate has three turtles and a dog named Max.",
+            "category": "1",
+            "bleu_score": 0.4,
+            "f1_score": 0.46153846153846156,
+            "llm_score": 1
+        },
+        {
+            "question": "What do both Joanna and Nate appreciate the beauty of?",
+            "answer": "Nature",
+            "response": "Nature",
+            "category": "1",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Nate win his second tournament?",
+            "answer": "The week before 2 May, 2022.",
+            "response": "2 May 2022",
+            "category": "2",
+            "bleu_score": 0.18887560283756186,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "How many tournaments has Nate won?",
+            "answer": "seven",
+            "response": "Three tournaments.",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What are the skills that Nate has helped others learn?",
+            "answer": "coconut milk ice cream recipe, reset high scores, tips to improve gaming skills",
+            "response": "Gaming skills",
+            "category": "1",
+            "bleu_score": 0.0015034391929775724,
+            "f1_score": 0.2666666666666667,
+            "llm_score": 0
+        },
+        {
+            "question": "What game was the second tournament that Nate won based on?",
+            "answer": "Street Fighter",
+            "response": "Street Fighter",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What is \"Little Women\" about according to Joanna?",
+            "answer": "Sisterhood, love, and reaching for your dreams",
+            "response": "Sisterhood, love, and dreams.",
+            "category": "4",
+            "bleu_score": 0.6441233940645307,
+            "f1_score": 0.7272727272727273,
+            "llm_score": 1
+        },
+        {
+            "question": "What inspired Joanna's new screenplay on 25 February, 2022?",
+            "answer": "personal experiences and her own journey of self-discovery",
+            "response": "Waiting to hear back about the first one.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "Why does Nate like turtles as pets?",
+            "answer": "Their slow pace and calming nature",
+            "response": "They bring joy and peace.",
+            "category": "4",
+            "bleu_score": 0.16666666666666669,
+            "f1_score": 0.1818181818181818,
+            "llm_score": 1
+        },
+        {
+            "question": "Why did Nate choose the hair color he did?",
+            "answer": "Bright and bold - like him",
+            "response": "To stand out from regular options.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What is Nate's favorite genre of movies?",
+            "answer": "Fantasy and sci-fi",
+            "response": "Fantasy and sci-fi movies.",
+            "category": "4",
+            "bleu_score": 0.6,
+            "f1_score": 0.8571428571428571,
+            "llm_score": 1
+        },
+        {
+            "question": "What kind of frosting did Joanna use on the cake she made recently in May 2022?",
+            "answer": "coconut cream",
+            "response": "Coconut cream frosting",
+            "category": "4",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "What did Nate do for Joanna on 25 May, 2022?",
+            "answer": "get her a stuffed animal",
+            "response": "Nate supported Joanna.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "How does Nate describe the stuffed animal he got for Joanna?",
+            "answer": "A stuffed animal to remind you of the good vibes",
+            "response": "Cute and brings joy.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What superhero is Joanna a fan of?",
+            "answer": "Spider-Man",
+            "response": "Spider-Man",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What is displayed on Joanna's cork board for motivation and creativity?",
+            "answer": "inspiring quotes, photos, and little keepsakes",
+            "response": "Inspiring quotes and pictures.",
+            "category": "4",
+            "bleu_score": 0.32928698165641584,
+            "f1_score": 0.6,
+            "llm_score": 1
+        },
+        {
+            "question": "What does the photo on Joanna's cork board remind her of?",
+            "answer": "love and encouragement from her family",
+            "response": "Love and encouragement from family",
+            "category": "4",
+            "bleu_score": 0.8187307530779819,
+            "f1_score": 0.9090909090909091,
+            "llm_score": 1
+        },
+        {
+            "question": "How many people attended the gaming party hosted by Nate in June 2022?",
+            "answer": "7",
+            "response": "7 people attended the gaming party.",
+            "category": "4",
+            "bleu_score": 0.14285714285714285,
+            "f1_score": 0.2857142857142857,
+            "llm_score": 1
+        },
+        {
+            "question": "What recipe Nate offer to share with Joanna?",
+            "answer": "vegan ice cream recipe",
+            "response": "Chocolate and raspberry cake",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "How many video game tournaments has Nate won by July 10, 2022?",
+            "answer": "Four",
+            "response": "Two tournaments.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What inspired Joanna's new script in July 2022?",
+            "answer": "Woodhaven's interesting past and people",
+            "response": "A road trip.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What did Nate do while Joanna was on her road trip?",
+            "answer": "Won a video game tournament",
+            "response": "Nate was focused on career development.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What does Nate do that he loves and can make money from?",
+            "answer": "Competing in video game tournaments",
+            "response": "Gaming",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "How did Joanna feel when someone wrote her a letter after reading her blog post?",
+            "answer": "Touched",
+            "response": "Joanna felt comforted.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What two main ingredients are part of the dessert Joanna shared a photo of with blueberries, coconut milk, and a gluten-free crust?",
+            "answer": "blueberries and coconut milk",
+            "response": "Blueberries, coconut milk",
+            "category": "4",
+            "bleu_score": 0.75,
+            "f1_score": 0.8571428571428571,
+            "llm_score": 1
+        },
+        {
+            "question": "What encouragement does Nate give to Joanna after her setback?",
+            "answer": "rejections don't define her, keep grinding and she'll find the perfect opportunity",
+            "response": "Nate supports Joanna's work.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What type of diet do Nate's turtles have?",
+            "answer": "combination of vegetables, fruits, and insects",
+            "response": "Nate's turtles have a vegan diet.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What advice does Joanna give to Nate about making YouTube videos?",
+            "answer": "Watch other people's videos to understand what the audience likes",
+            "response": "Creating gaming content for YouTube.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        }
+    ],
+    "8": [
+        {
+            "question": "What kinds of things did Evan have broken?",
+            "answer": "His old Prius and his new Prius.",
+            "response": "Evan's car and knee.",
+            "category": "1",
+            "bleu_score": 0.23884377019126307,
+            "f1_score": 0.22222222222222224,
+            "llm_score": 0
+        },
+        {
+            "question": "How many Prius has Evan owned?",
+            "answer": "two",
+            "response": "One Prius.",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "Which hobby did Sam take up in May 2023?",
+            "answer": "painting",
+            "response": "Painting",
+            "category": "2",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Which country was Evan visiting in May 2023?",
+            "answer": "Canada",
+            "response": "Canada",
+            "category": "3",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Which type of vacation would Evan prefer with his family, walking tours in metropolitan cities or camping trip in the outdoors?",
+            "answer": "camping trip in the outdoors",
+            "response": "Camping trip in the outdoors.",
+            "category": "3",
+            "bleu_score": 0.8333333333333334,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Evan have his sudden heart palpitation incident that really shocked him up?",
+            "answer": "first week of June 2023",
+            "response": "No memory of heart palpitation incident.",
+            "category": "2",
+            "bleu_score": 0.14285714285714285,
+            "f1_score": 0.1818181818181818,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Sam's friends mock him for being overweight?",
+            "answer": "Friday before 27 July 2023",
+            "response": "20 July, 2023",
+            "category": "2",
+            "bleu_score": 0.38940039153570244,
+            "f1_score": 0.5,
+            "llm_score": 1
+        },
+        {
+            "question": "What electronic device could Evan gift Sam to help him keep up with his fitness goals?",
+            "answer": "fitness tracker",
+            "response": "A fitness tracker.",
+            "category": "3",
+            "bleu_score": 0.5,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?",
+            "answer": "Their experiences likely lead them to view challenges as opportunities for growth and change. They both have embraced healthier lifestyles, indicating a proactive approach to managing stress and challenges.",
+            "response": "Supportive and motivated together.",
+            "category": "3",
+            "bleu_score": 0.0018066323770450665,
+            "f1_score": 0.06666666666666668,
+            "llm_score": 0
+        },
+        {
+            "question": "What recurring frustration does Evan experience?",
+            "answer": "Evan consistently misplaces his keys every week.",
+            "response": "Staying consistent with fitness routine.",
+            "category": "1",
+            "bleu_score": 0.11942188509563156,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What kind of foods or recipes has Sam recommended to Evan?",
+            "answer": "grilled vegetables, grilled chicken and veggie stir-fry, poutine",
+            "response": "Healthy recipes and vegetables.",
+            "category": "1",
+            "bleu_score": 0.14715177646857694,
+            "f1_score": 0.36363636363636365,
+            "llm_score": 0
+        },
+        {
+            "question": "What kind of subjects does Evan enjoy painting?",
+            "answer": "nature landscapes, portraits, abstract minimalism",
+            "response": "Landscapes and emotions.",
+            "category": "1",
+            "bleu_score": 0.11809163818525367,
+            "f1_score": 0.25,
+            "llm_score": 0
+        },
+        {
+            "question": "Which places in Canada was Evan visiting in July 2023?",
+            "answer": "Banff, Rocky Mountains",
+            "response": "Jasper and the Rockies",
+            "category": "2",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Evan and Sam decide to paint together?",
+            "answer": "Saturday after 11 September, 2023.",
+            "response": "11 September, 2023",
+            "category": "2",
+            "bleu_score": 0.4723665527410147,
+            "f1_score": 0.7499999999999999,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Evan start lifting weights?",
+            "answer": "October 2022",
+            "response": "8 October, 2022",
+            "category": "2",
+            "bleu_score": 0.5,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Sam and his friend decide to try kayaking?",
+            "answer": "October 14, 2023",
+            "response": "14 October, 2023",
+            "category": "2",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "When is Evan planning a big family reunion?",
+            "answer": "Summer 2024",
+            "response": "Next summer",
+            "category": "2",
+            "bleu_score": 0.5,
+            "f1_score": 0.5,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Evan announce his marriage to his extended family?",
+            "answer": "January 5, 2024",
+            "response": "6 January, 2024",
+            "category": "2",
+            "bleu_score": 0.75,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "When will Evan and his partner have their honeymoon in Canada?",
+            "answer": "February 2024",
+            "response": "February 2024",
+            "category": "2",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Where did Evan take his family for a road trip on 24 May, 2023?",
+            "answer": "Jasper",
+            "response": "Jasper",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What habit is Sam trying to change in terms of diet?",
+            "answer": "consuming soda and candy",
+            "response": "Reducing soda and candy intake.",
+            "category": "4",
+            "bleu_score": 0.5,
+            "f1_score": 0.6666666666666665,
+            "llm_score": 1
+        },
+        {
+            "question": "What did Sam agree to try instead of soda and candy?",
+            "answer": "flavored seltzer water and dark chocolate with high cocoa content",
+            "response": "Dark chocolate with high cocoa content.",
+            "category": "4",
+            "bleu_score": 0.558376335026619,
+            "f1_score": 0.7499999999999999,
+            "llm_score": 0
+        },
+        {
+            "question": "What did Evan suggest Sam to check out for insights into his dream?",
+            "answer": "dream interpretation book",
+            "response": "No relevant information found.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What type of landscapes does Evan love painting the most?",
+            "answer": "sunsets over the ocean",
+            "response": "Nature landscapes",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What gift did Evan receive from a close friend?",
+            "answer": "1968 Kustom K-200A vintage guitar",
+            "response": "Guitar",
+            "category": "4",
+            "bleu_score": 0.01831563888873418,
+            "f1_score": 0.33333333333333337,
+            "llm_score": 0
+        },
+        {
+            "question": "What did Sam offer Evan regarding yoga?",
+            "answer": "Support and tips",
+            "response": "Sam practices yoga.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "How did Evan describe the process of creating the painting with the bird flying over it?",
+            "answer": "embracing the creative process without restraint",
+            "response": "No relevant information found.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What did Evan offer to share with Sam after talking about healthy snacks?",
+            "answer": "the recipes for cookies",
+            "response": "Energy balls recipe.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What was Evan limiting himself to on his new diet?",
+            "answer": "just two ginger snaps a day",
+            "response": "Healthy snacks and vegetables.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What sports activity did Evan and his partner try in a recent weekend?",
+            "answer": "Snowshoeing",
+            "response": "Snowshoeing",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What advice did Evan suggest Sam seek from a doctor?",
+            "answer": "diet plan and low-impact exercises",
+            "response": "Evan suggested diet and exercise advice.",
+            "category": "4",
+            "bleu_score": 0.2857142857142857,
+            "f1_score": 0.3636363636363636,
+            "llm_score": 1
+        },
+        {
+            "question": "What movie did Sam watch that motivated him to keep up with his routine?",
+            "answer": "The Godfather",
+            "response": "The Godfather",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What activity helped Evan with stress and flexibility?",
+            "answer": "Yoga",
+            "response": "Yoga",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What did Evan share a photo of that was taken on a camping trip?",
+            "answer": "a kayak",
+            "response": "No relevant information found.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        }
+    ],
+    "2": [
+        {
+            "question": "What type of volunteering have John and Maria both done?",
+            "answer": "Volunteering at a homeless shelter",
+            "response": "Homeless shelter volunteering",
+            "category": "1",
+            "bleu_score": 0.513417119032592,
+            "f1_score": 0.7499999999999999,
+            "llm_score": 1
+        },
+        {
+            "question": "What might John's financial status be?",
+            "answer": "Middle-class or wealthy",
+            "response": "John lost his job.",
+            "category": "3",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "Who gave Maria's family money when she was younger and her family was going through tough times?",
+            "answer": "Her aunt",
+            "response": "Maria's aunt.",
+            "category": "1",
+            "bleu_score": 0.25,
+            "f1_score": 0.5,
+            "llm_score": 1
+        },
+        {
+            "question": "What test has John taken multiple times?",
+            "answer": "The military aptitude test",
+            "response": "Military aptitude test",
+            "category": "1",
+            "bleu_score": 0.7165313105737893,
+            "f1_score": 0.8571428571428571,
+            "llm_score": 1
+        },
+        {
+            "question": "Would John be considered a patriotic person?",
+            "answer": "Yes",
+            "response": "Yes, John supports veterans.",
+            "category": "3",
+            "bleu_score": 0.16666666666666669,
+            "f1_score": 0.4,
+            "llm_score": 1
+        },
+        {
+            "question": "Who did John go to yoga with?",
+            "answer": "Rob",
+            "response": "Colleague Rob",
+            "category": "1",
+            "bleu_score": 0.5,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What damages have happened to John's car?",
+            "answer": "Broken windshield, Car broke down",
+            "response": "Car trouble and breakdown.",
+            "category": "1",
+            "bleu_score": 0.1637461506155964,
+            "f1_score": 0.22222222222222224,
+            "llm_score": 1
+        },
+        {
+            "question": "When did John take a road trip to the Pacific Northwest?",
+            "answer": "2022",
+            "response": "10 April, 2023",
+            "category": "2",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "When did John go to a convention with colleagues?",
+            "answer": "March 2023",
+            "response": "18 March 2023",
+            "category": "2",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "When did John have a party with veterans?",
+            "answer": "The Friday before 20 May 2023",
+            "response": "20 May, 2023",
+            "category": "2",
+            "bleu_score": 0.45489799478447507,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 0
+        },
+        {
+            "question": "What causes does John feel passionate about supporting?",
+            "answer": "Veterans, schools, infrastructure",
+            "response": "Education and infrastructure, veterans' rights.",
+            "category": "1",
+            "bleu_score": 0.375,
+            "f1_score": 0.25,
+            "llm_score": 1
+        },
+        {
+            "question": "What music events has John attended?",
+            "answer": "Live music event, violin concert",
+            "response": "Live music event on 20 June 2023.",
+            "category": "1",
+            "bleu_score": 0.375,
+            "f1_score": 0.5,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Maria go hiking with her church friends?",
+            "answer": "The weekend before 22 July 2023",
+            "response": "22 July, 2023",
+            "category": "2",
+            "bleu_score": 0.45489799478447507,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What attributes describe John?",
+            "answer": "Selfless, family-oriented, passionate, rational",
+            "response": "Passionate, supportive, community-oriented.",
+            "category": "3",
+            "bleu_score": 0.423240862445307,
+            "f1_score": 0.28571428571428575,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Maria start volunteering at the homeless shelter?",
+            "answer": "Around August 2022",
+            "response": "August 2022",
+            "category": "2",
+            "bleu_score": 0.6065306597126334,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "When did John help renovate his hometown community center?",
+            "answer": "2022",
+            "response": "Last year (2022)",
+            "category": "2",
+            "bleu_score": 0.2,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Maria receive a medal from the homeless shelter?",
+            "answer": "The week before 9 August 2023",
+            "response": "9 August, 2023",
+            "category": "2",
+            "bleu_score": 0.45489799478447507,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "What causes has John done events for?",
+            "answer": "Toy drive, Community food drive, veterans, domestic violence",
+            "response": "Community and important causes.",
+            "category": "1",
+            "bleu_score": 0.060238842382440407,
+            "f1_score": 0.18181818181818182,
+            "llm_score": 0
+        },
+        {
+            "question": "What job might Maria pursue in the future?",
+            "answer": "Shelter coordinator, Counselor",
+            "response": "Local politics",
+            "category": "3",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "Who inspired Maria to start volunteering?",
+            "answer": "Her aunt",
+            "response": "Her aunt inspired her.",
+            "category": "4",
+            "bleu_score": 0.4,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "Why did Maria sit with the little girl at the shelter event in February 2023?",
+            "answer": "The girl seemed sad and had no other family",
+            "response": "To comfort her.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 1
+        },
+        {
+            "question": "How often does John take his kids to the park?",
+            "answer": "A few times a week",
+            "response": "A few times a week.",
+            "category": "4",
+            "bleu_score": 0.8333333333333334,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What did John receive a certificate for?",
+            "answer": "completion of a university degree",
+            "response": "No information available.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What did John do that put a strain on his wallet?",
+            "answer": "His car broke down",
+            "response": "Car trouble and money problems.",
+            "category": "4",
+            "bleu_score": 0.16666666666666669,
+            "f1_score": 0.22222222222222224,
+            "llm_score": 1
+        },
+        {
+            "question": "What activity did Maria and her mom do together in May 2023?",
+            "answer": "Made dinner together",
+            "response": "Made dinner together.",
+            "category": "4",
+            "bleu_score": 0.75,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What exciting news did Maria share on 16 June, 2023?",
+            "answer": "joined a gym",
+            "response": "Maria received a promotion.",
+            "category": "4",
+            "bleu_score": 0.2,
+            "f1_score": 0.28571428571428575,
+            "llm_score": 0
+        },
+        {
+            "question": "What was one of the biggest challenges John faced in his journey to becoming assistant manager?",
+            "answer": "self-doubt",
+            "response": "Self-doubt",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What natural disaster affected John's old area on 7 July, 2023?",
+            "answer": "Flood",
+            "response": "Flood",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "How did the flood impact the homes in John's old area?",
+            "answer": "Lots of homes were ruined.",
+            "response": "Many homes were ruined.",
+            "category": "4",
+            "bleu_score": 0.6549846024623855,
+            "f1_score": 0.6666666666666665,
+            "llm_score": 1
+        },
+        {
+            "question": "What motivated Maria and John to discuss potential solutions for their community on 7 July, 2023?",
+            "answer": "Flood in John's old area",
+            "response": "Community improvement projects.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What did John do to help his community last year in his hometown?",
+            "answer": "Helped renovate a rundown community center.",
+            "response": "Renovated a community center.",
+            "category": "4",
+            "bleu_score": 0.5362560368285115,
+            "f1_score": 0.6,
+            "llm_score": 1
+        },
+        {
+            "question": "What recognition did Maria receive at the homeless shelter in August 2023?",
+            "answer": "a medal for volunteering",
+            "response": "No specific recognition mentioned.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "Why does John say he feels stuck and questioning his decisions and goals?",
+            "answer": "Not feeling like making much of an impact",
+            "response": "Lacks impact and direction.",
+            "category": "4",
+            "bleu_score": 0.10976232721880529,
+            "f1_score": 0.16666666666666666,
+            "llm_score": 1
+        },
+        {
+            "question": "How is Maria's new puppy adjusting to its new home?",
+            "answer": "doing great - learning commands and house training",
+            "response": "Learning commands and house training.",
+            "category": "4",
+            "bleu_score": 0.5971094254781577,
+            "f1_score": 0.7692307692307693,
+            "llm_score": 1
+        }
+    ]
+}

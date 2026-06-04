@@ -1,0 +1,43 @@
+# Requirements for SAGE (Python >= 3.9).
+# Install with:  pip install -r requirements.txt
+#
+# The benchmark runner adds the repo root to sys.path, so the local mem0/ package
+# is imported directly -- you do NOT need to `pip install` this repo to run it.
+# (To use SAGE as a library elsewhere, also run `pip install -e .`.)
+
+# --- Core: SAGE / mem0 memory library ---
+qdrant-client>=1.9.1
+pydantic>=2.7.3
+openai>=1.90.0
+posthog>=3.5.0
+pytz>=2024.1
+sqlalchemy>=2.0.31
+protobuf>=5.29.6,<7.0.0
+numpy>=1.24            # SAGE novelty gate (vMF-KDE, PCA)
+
+# --- Evaluation harness: running the LOCOMO benchmark + generating tables ---
+pandas>=2.0
+tqdm>=4.66
+python-dotenv>=1.0
+jinja2>=3.1
+
+# --- Scoring (evals.py / metrics): BLEU, ROUGE, BERTScore, embedding similarity ---
+# Pulls PyTorch via sentence-transformers / bert-score (heavy).
+# METEOR needs NLTK data:  python -m nltk.downloader wordnet omw-1.4
+nltk>=3.8
+rouge-score>=0.1.2
+bert-score>=0.3.13
+sentence-transformers>=2.2
+
+# --- Open-weight runs via Ollama (e.g. qwen2.5, llama3.2, deepseek-r1) ---
+ollama>=0.3.0
+
+# --- mem0g graph baseline (only for --is_graph runs) ---
+# In-process Kuzu graph store; no server needed. Omit if not reproducing mem0g.
+kuzu>=0.11.0
+
+# --- Optional baselines (NOT needed for the SAGE vs mem0 results) ---
+# tiktoken>=0.5       # RAG baseline (src/rag.py)
+# langgraph           # LangMem baseline (src/langmem.py)
+# langmem
+# zep-cloud           # Zep baseline (src/zep/)
