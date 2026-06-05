@@ -4,7 +4,7 @@
 
 SAGE is a long-term memory layer for LLM agents that decides what to write
 **without an LLM call**. It is built as a fork of [mem0](https://github.com/mem0ai/mem0):
-mem0 issues a per-write LLM call to route each candidate fact to ADD / UPDATE / DELETE,
+mem0 issues a per-write LLM call to route each candidate fact to ADD / UPDATE / DELETE / NOOP,
 whereas SAGE replaces that routing with a **vector-math novelty gate** — a von
 Mises–Fisher KDE novelty score compared against an adaptive per-scope threshold. The
 fact-extraction step is unchanged, so SAGE is a drop-in alternative to mem0's write
