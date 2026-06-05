@@ -5,7 +5,7 @@ This directory evaluates **SAGE** against the **mem0** baseline on the
 
 SAGE (adaptive novelty-gated memory) is the contribution of this repository, built
 as a fork of [mem0](https://github.com/mem0ai/mem0). On each memory write, mem0
-issues an LLM call to decide ADD / UPDATE / DELETE; **SAGE replaces that per-write
+issues an LLM call to decide ADD / UPDATE / DELETE / NOOP; **SAGE replaces that per-write
 LLM routing with a vector-math novelty gate** (a von Mises–Fisher KDE novelty score
 against an adaptive per-scope threshold), keeping the same fact-extraction step. The
 result is far fewer write-side LLM calls and generated tokens at comparable accuracy.
