@@ -10,6 +10,16 @@ Mises–Fisher KDE novelty score compared against an adaptive per-scope threshol
 fact-extraction step is unchanged, so SAGE is a drop-in alternative to mem0's write
 path that issues far fewer write-side LLM calls and generates far fewer tokens.
 
+<p align="center">
+  <img src="assets/figure1_overview.png" width="100%" alt="Overview of the Memory Evolution problem and SAGE: a candidate fact is l2-normalized, scored against a vMF-KDE over the memory scope, and routed to NOOP / UPDATE / ADD by an adaptive threshold — the only LLM call is fact extraction.">
+</p>
+<p align="center"><em>Figure 1: Overview of the Memory Evolution problem and our proposed approach, SAGE. The single LLM call is fact extraction; routing is decided by the vector-math novelty gate.</em></p>
+
+<p align="center">
+  <img src="assets/figure3_threshold.png" width="65%" alt="Novelty scores and the decaying adaptive threshold over time; candidates above the margin band are ADDed, inside the band UPDATE, below are NOOP.">
+</p>
+<p align="center"><em>Figure 3: The adaptive threshold decays as memory density grows, so the gate becomes more selective over time. Candidates above the margin band are added, those inside trigger an update, and those below are dropped.</em></p>
+
 ## Results (LoCoMo, gpt-4o-mini)
 
 Measured on full LoCoMo with a gpt-4o-mini backbone and a gpt-4o-mini LLM-as-judge
