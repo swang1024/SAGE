@@ -13,12 +13,12 @@ path that issues far fewer write-side LLM calls and generates far fewer tokens.
 <p align="center">
   <img src="assets/figure1_overview.png" width="100%" alt="Overview of the Memory Evolution problem and SAGE: a candidate fact is l2-normalized, scored against a vMF-KDE over the memory scope, and routed to NOOP / UPDATE / ADD by an adaptive threshold — the only LLM call is fact extraction.">
 </p>
-<p align="center"><em>Figure 1: Overview of the Memory Evolution problem and our proposed approach, SAGE. The single LLM call is fact extraction; routing is decided by the vector-math novelty gate.</em></p>
+<p align="center"><em>Overview of Memory Evolution problem and our proposed approach SAGE.</em></p>
 
 <p align="center">
   <img src="assets/figure3_threshold.png" width="65%" alt="Novelty scores and the decaying adaptive threshold over time; candidates above the margin band are ADDed, inside the band UPDATE, below are NOOP.">
 </p>
-<p align="center"><em>Figure 3: The adaptive threshold decays as memory density grows, so the gate becomes more selective over time. Candidates above the margin band are added, those inside trigger an update, and those below are dropped.</em></p>
+<p align="center"><em>As the memory scope expands and the projection subspace becomes more densely populated, the baseline novelty scores of incoming candidates naturally trend downward because new facts are more likely to fall near established memories. To prevent the system from becoming overly conservative, the adaptive threshold τt (the solid blue line) decays over time in response to the increasing density proxy ρt.</em></p>
 
 ## Results (LoCoMo, gpt-4o-mini)
 
