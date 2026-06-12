@@ -1,0 +1,1644 @@
+[
+  {
+    "qa": [
+      {
+        "question": "When did Caroline go to the LGBTQ support group?",
+        "answer": "7 May 2023",
+        "evidence": [
+          "D1:3"
+        ],
+        "category": 2
+      },
+      {
+        "question": "When did Melanie paint a sunrise?",
+        "answer": 2022,
+        "evidence": [
+          "D1:12"
+        ],
+        "category": 2
+      },
+      {
+        "question": "What fields would Caroline be likely to pursue in her educaton?",
+        "answer": "Psychology, counseling certification",
+        "evidence": [
+          "D1:9",
+          "D1:11"
+        ],
+        "category": 3
+      },
+      {
+        "question": "What did Caroline research?",
+        "answer": "Adoption agencies",
+        "evidence": [
+          "D2:8"
+        ],
+        "category": 1
+      },
+      {
+        "question": "What is Caroline's identity?",
+        "answer": "Transgender woman",
+        "evidence": [
+          "D1:5"
+        ],
+        "category": 1
+      },
+      {
+        "question": "When did Melanie run a charity race?",
+        "answer": "The sunday before 25 May 2023",
+        "evidence": [
+          "D2:1"
+        ],
+        "category": 2
+      },
+      {
+        "question": "When is Melanie planning on going camping?",
+        "answer": "June 2023",
+        "evidence": [
+          "D2:7"
+        ],
+        "category": 2
+      },
+      {
+        "question": "What is Caroline's relationship status?",
+        "answer": "Single",
+        "evidence": [
+          "D3:13",
+          "D2:14"
+        ],
+        "category": 1
+      },
+      {
+        "question": "When did Caroline give a speech at a school?",
+        "answer": "The week before 9 June 2023",
+        "evidence": [
+          "D3:1"
+        ],
+        "category": 2
+      },
+      {
+        "question": "When did Caroline meet up with her friends, family, and mentors?",
+        "answer": "The week before 9 June 2023",
+        "evidence": [
+          "D3:11"
+        ],
+        "category": 2
+      },
+      {
+        "question": "How long has Caroline had her current group of friends for?",
+        "answer": "4 years",
+        "evidence": [
+          "D3:13"
+        ],
+        "category": 2
+      },
+      {
+        "question": "Where did Caroline move from 4 years ago?",
+        "answer": "Sweden",
+        "evidence": [
+          "D3:13",
+          "D4:3"
+        ],
+        "category": 1
+      },
+      {
+        "question": "How long ago was Caroline's 18th birthday?",
+        "answer": "10 years ago",
+        "evidence": [
+          "D4:5"
+        ],
+        "category": 2
+      },
+      {
+        "question": "What career path has Caroline decided to persue?",
+        "answer": "counseling or mental health for Transgender people",
+        "evidence": [
+          "D4:13",
+          "D1:11"
+        ],
+        "category": 1
+      },
+      {
+        "question": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+        "answer": "Likely no",
+        "evidence": [
+          "D4:15",
+          "D3:5"
+        ],
+        "category": 3
+      },
+      {
+        "question": "When did Melanie go camping in June?",
+        "answer": "The week before 27 June 2023",
+        "evidence": [
+          "D4:8"
+        ],
+        "category": 2
+      },
+      {
+        "question": "What did the charity race raise awareness for?",
+        "answer": "mental health",
+        "evidence": [
+          "D2:2"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What did Melanie realize after the charity race?",
+        "answer": "self-care is important",
+        "evidence": [
+          "D2:3"
+        ],
+        "category": 4
+      },
+      {
+        "question": "How does Melanie prioritize self-care?",
+        "answer": "by carving out some me-time each day for activities like running, reading, or playing the violin",
+        "evidence": [
+          "D2:5"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What are Caroline's plans for the summer?",
+        "answer": "researching adoption agencies",
+        "evidence": [
+          "D2:8"
+        ],
+        "category": 4
+      }
+    ],
+    "conversation": {
+      "speaker_a": "Caroline",
+      "speaker_b": "Melanie",
+      "session_1_date_time": "1:56 pm on 8 May, 2023",
+      "session_1": [
+        {
+          "speaker": "Caroline",
+          "dia_id": "D1:1",
+          "text": "Hey Mel! Good to see you! How have you been?"
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D1:2",
+          "text": "Hey Caroline! Good to see you! I'm swamped with the kids & work. What's up with you? Anything new?"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D1:3",
+          "text": "I went to a LGBTQ support group yesterday and it was so powerful."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D1:4",
+          "text": "Wow, that's cool, Caroline! What happened that was so awesome? Did you hear any inspiring stories?"
+        },
+        {
+          "speaker": "Caroline",
+          "img_url": [
+            "https://i.redd.it/l7hozpetnhlb1.jpg"
+          ],
+          "blip_caption": "a photo of a dog walking past a wall with a painting of a woman",
+          "query": "transgender pride flag mural",
+          "dia_id": "D1:5",
+          "text": "The transgender stories were so inspiring! I was so happy and thankful for all the support."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D1:6",
+          "text": "Wow, love that painting! So cool you found such a helpful group. What's it done for you?"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D1:7",
+          "text": "The support group has made me feel accepted and given me courage to embrace myself."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D1:8",
+          "text": "That's really cool. You've got guts. What now?"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D1:9",
+          "text": "Gonna continue my edu and check out career options, which is pretty exciting!"
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D1:10",
+          "text": "Wow, Caroline! What kinda jobs are you thinkin' of? Anything that stands out?"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D1:11",
+          "text": "I'm keen on counseling or working in mental health - I'd love to support those with similar issues."
+        },
+        {
+          "speaker": "Melanie",
+          "img_url": [
+            "http://candicealexander.com/cdn/shop/products/IMG_7269_a49d5af8-c76c-4ecd-ae20-48c08cb11dec.jpg"
+          ],
+          "blip_caption": "a photo of a painting of a sunset over a lake",
+          "query": "painting sunrise",
+          "dia_id": "D1:12",
+          "text": "You'd be a great counselor! Your empathy and understanding will really help the people you work with. By the way, take a look at this."
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D1:13",
+          "text": "Thanks, Melanie! That's really sweet. Is this your own painting?"
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D1:14",
+          "text": "Yeah, I painted that lake sunrise last year! It's special to me."
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D1:15",
+          "text": "Wow, Melanie! The colors really blend nicely. Painting looks like a great outlet for expressing yourself."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D1:16",
+          "text": "Thanks, Caroline! Painting's a fun way to express my feelings and get creative. It's a great way to relax after a long day."
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D1:17",
+          "text": "Totally agree, Mel. Relaxing and expressing ourselves is key. Well, I'm off to go do some research."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D1:18",
+          "text": "Yep, Caroline. Taking care of ourselves is vital. I'm off to go swimming with the kids. Talk to you soon!"
+        }
+      ],
+      "session_2_date_time": "1:14 pm on 25 May, 2023",
+      "session_2": [
+        {
+          "speaker": "Melanie",
+          "dia_id": "D2:1",
+          "text": "Hey Caroline, since we last chatted, I've had a lot of things happening to me. I ran a charity race for mental health last Saturday \u2013 it was really rewarding. Really made me think about taking care of our minds."
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D2:2",
+          "text": "That charity race sounds great, Mel! Making a difference & raising awareness for mental health is super rewarding - I'm really proud of you for taking part!"
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D2:3",
+          "text": "Thanks, Caroline! The event was really thought-provoking. I'm starting to realize that self-care is really important. It's a journey for me, but when I look after myself, I'm able to better look after my family."
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D2:4",
+          "text": "I totally agree, Melanie. Taking care of ourselves is so important - even if it's not always easy. Great that you're prioritizing self-care."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D2:5",
+          "text": "Yeah, it's tough. So I'm carving out some me-time each day - running, reading, or playing my violin - which refreshes me and helps me stay present for my fam!"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D2:6",
+          "text": "That's great, Mel! Taking time for yourself is so important. You're doing an awesome job looking after yourself and your family!"
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D2:7",
+          "text": "Thanks, Caroline. It's still a work in progress, but I'm doing my best. My kids are so excited about summer break! We're thinking about going camping next month. Any fun plans for the summer?"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D2:8",
+          "text": "Researching adoption agencies \u2014 it's been a dream to have a family and give a loving home to kids who need it."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D2:9",
+          "text": "Wow, Caroline! That's awesome! Taking in kids in need - you're so kind. Your future family is gonna be so lucky to have you!"
+        },
+        {
+          "speaker": "Caroline",
+          "img_url": [
+            "https://live.staticflickr.com/3437/3935231341_b2955b00dd_b.jpg"
+          ],
+          "blip_caption": "a photography of a sign for a new arrival and an information and domestic building",
+          "query": "adoption agency brochure",
+          "dia_id": "D2:10",
+          "re-download": true,
+          "text": "Thanks, Mel! My goal is to give kids a loving home. I'm truly grateful for all the support I've got from friends and mentors. Now the hard work starts to turn my dream into a reality. And here's one of the adoption agencies I'm looking into. It's a lot to take in, but I'm feeling hopeful and optimistic."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D2:11",
+          "text": "Wow, that agency looks great! What made you pick it?"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D2:12",
+          "text": "I chose them 'cause they help LGBTQ+ folks with adoption. Their inclusivity and support really spoke to me."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D2:13",
+          "text": "That's great, Caroline! Loving the inclusivity and support. Anything you're excited for in the adoption process?"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D2:14",
+          "text": "I'm thrilled to make a family for kids who need one. It'll be tough as a single parent, but I'm up for the challenge!"
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D2:15",
+          "text": "You're doing something amazing! Creating a family for those kids is so lovely. You'll be an awesome mom! Good luck!"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D2:16",
+          "text": "Thanks, Melanie! Your kind words really mean a lot. I'll do my best to make sure these kids have a safe and loving home."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D2:17",
+          "text": "No doubts, Caroline. You have such a caring heart - they'll get all the love and stability they need! Excited for this new chapter!"
+        }
+      ],
+      "session_3_date_time": "7:55 pm on 9 June, 2023",
+      "session_3": [
+        {
+          "speaker": "Caroline",
+          "dia_id": "D3:1",
+          "text": "Hey Melanie! How's it going? I wanted to tell you about my school event last week. It was awesome! I talked about my transgender journey and encouraged students to get involved in the LGBTQ community. It was great to see their reactions. It made me reflect on how far I've come since I started transitioning three years ago."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D3:2",
+          "text": "Hey Caroline! Great to hear from you. Sounds like your event was amazing! I'm so proud of you for spreading awareness and getting others involved in the LGBTQ community. You've come a long way since your transition - keep on inspiring people with your strength and courage!"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D3:3",
+          "text": "Thanks, Mel! Your backing really means a lot. I felt super powerful giving my talk. I shared my own journey, the struggles I had and how much I've developed since coming out. It was wonderful to see how the audience related to what I said and how it inspired them to be better allies. Conversations about gender identity and inclusion are so necessary and I'm thankful for being able to give a voice to the trans community."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D3:4",
+          "text": "Wow, Caroline, you're doing an awesome job of inspiring others with your journey. It's great to be part of it and see how you're positively affecting so many. Talking about inclusivity and acceptance is crucial, and you're so brave to speak up for the trans community. Keep up the great work!"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D3:5",
+          "text": "Thanks Mel! Your kind words mean a lot. Sharing our experiences isn't always easy, but I feel it's important to help promote understanding and acceptance. I've been blessed with loads of love and support throughout this journey, and I want to pass it on to others. By sharing our stories, we can build a strong, supportive community of hope."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D3:6",
+          "text": "Yeah, Caroline! It takes courage to talk about our own stories. But it's in these vulnerable moments that we bond and understand each other. We all have our different paths, but if we share them, we show people that they're not alone. Our stories can be so inspiring and encouraging to others who are facing the same challenges. Thank you for using your voice to create love, acceptance, and hope. You're doing amazing!"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D3:7",
+          "text": "Your words mean a lot to me. I'm grateful for the chance to share my story and give others hope. We all have unique paths, and by working together we can build a more inclusive and understanding world. I'm going to keep using my voice to make a change and lift others up. And you're part of that!"
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D3:8",
+          "text": "Thanks, Caroline, for letting me join your journey. I'm so proud to be part of the difference you're making. Let's keep motivating and helping each other out as we journey through life. We can make a real impact together!"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D3:9",
+          "text": "Yeah Mel, let's spread love and understanding! Thanks for the support and encouragement. We can tackle life's challenges together! We got this!"
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D3:10",
+          "text": "Yes, Caroline! We can do it. Your courage is inspiring. I want to be couragous for my family- they motivate me and give me love. What motivates you?"
+        },
+        {
+          "speaker": "Caroline",
+          "img_url": [
+            "https://fox2now.com/wp-content/uploads/sites/14/2023/08/that-tall-family.jpg"
+          ],
+          "blip_caption": "a photo of a family posing for a picture in a yard",
+          "query": "group of friends and family",
+          "dia_id": "D3:11",
+          "text": "Thanks, Mel! My friends, family and mentors are my rocks \u2013 they motivate me and give me the strength to push on. Here's a pic from when we met up last week!"
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D3:12",
+          "text": "Wow, that photo is great! How long have you had such a great support system?"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D3:13",
+          "text": "Yeah, I'm really lucky to have them. They've been there through everything, I've known these friends for 4 years, since I moved from my home country. Their love and help have been so important especially after that tough breakup. I'm super thankful. Who supports you, Mel?"
+        },
+        {
+          "speaker": "Melanie",
+          "img_url": [
+            "https://mrswebersneighborhood.com/wp-content/uploads/2022/07/Cedar-Falls-Hocking-Hills.jpg"
+          ],
+          "blip_caption": "a photo of a man and a little girl standing in front of a waterfall",
+          "query": "husband kids hiking nature",
+          "dia_id": "D3:14",
+          "text": "I'm lucky to have my husband and kids; they keep me motivated."
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D3:15",
+          "text": "Wow, what an amazing family pic! How long have you been married?"
+        },
+        {
+          "speaker": "Melanie",
+          "img_url": [
+            "https://i.redd.it/8o28nfllf3eb1.jpg"
+          ],
+          "blip_caption": "a photo of a bride in a wedding dress holding a bouquet",
+          "query": "wedding day",
+          "dia_id": "D3:16",
+          "text": "5 years already! Time flies- feels like just yesterday I put this dress on! Thanks, Caroline!"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D3:17",
+          "text": "Congrats, Melanie! You both looked so great on your wedding day! Wishing you many happy years together!"
+        },
+        {
+          "speaker": "Melanie",
+          "img_url": [
+            "http://shirleyswardrobe.com/wp-content/uploads/2017/07/LF-Picnic-6.jpg"
+          ],
+          "blip_caption": "a photo of a man and woman sitting on a blanket eating food",
+          "query": "family picnic park laughing",
+          "dia_id": "D3:18",
+          "text": "Thanks, Caroline! Appreciate your kind words. Looking forward to more happy years. Our family and moments make it all worth it."
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D3:19",
+          "text": "Looks like you had a great day! How was it? You all look so happy!"
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D3:20",
+          "text": "It so fun! We played games, ate good food, and just hung out together. Family moments make life awesome."
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D3:21",
+          "text": "Sounds great, Mel! Glad you had a great time. Cherish the moments - they're the best!"
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D3:22",
+          "text": "Absolutely, Caroline! I cherish time with family. It's when I really feel alive and happy."
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D3:23",
+          "text": "I 100% agree, Mel. Hanging with loved ones is amazing and brings so much happiness. Those moments really make me thankful. Family is everything."
+        }
+      ],
+      "session_4_date_time": "10:37 am on 27 June, 2023",
+      "session_4": [
+        {
+          "speaker": "Caroline",
+          "img_url": [
+            "https://i.redd.it/67uas3gnmz7b1.jpg"
+          ],
+          "blip_caption": "a photo of a person holding a necklace with a cross and a heart",
+          "query": "pendant transgender symbol",
+          "dia_id": "D4:1",
+          "text": "Hey Melanie! Long time no talk! A lot's been going on in my life! Take a look at this."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D4:2",
+          "text": "Hey, Caroline! Nice to hear from you! Love the necklace, any special meaning to it?"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D4:3",
+          "text": "Thanks, Melanie! This necklace is super special to me - a gift from my grandma in my home country, Sweden. She gave it to me when I was young, and it stands for love, faith and strength. It's like a reminder of my roots and all the love and support I get from my family."
+        },
+        {
+          "speaker": "Melanie",
+          "blip_caption": "a photo of a stack of bowls with different designs on them",
+          "dia_id": "D4:4",
+          "text": "That's gorgeous, Caroline! It's awesome what items can mean so much to us, right? Got any other objects that you treasure, like that necklace?"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D4:5",
+          "text": "Yep, Melanie! I've got some other stuff with sentimental value, like my hand-painted bowl. A friend made it for my 18th birthday ten years ago. The pattern and colors are awesome-- it reminds me of art and self-expression."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D4:6",
+          "text": "That sounds great, Caroline! It's awesome having stuff around that make us think of good connections and times. Actually, I just took my fam camping in the mountains last week - it was a really nice time together!"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D4:7",
+          "text": "Sounds great, Mel. Glad you made some new family mems. How was it? Anything fun?"
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D4:8",
+          "text": "It was an awesome time, Caroline! We explored nature, roasted marshmallows around the campfire and even went on a hike. The view from the top was amazing! The 2 younger kids love nature. It was so special having these moments together as a family - I'll never forget it!"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D4:9",
+          "text": "That's awesome, Melanie! Family moments like that are so special. Glad y'all had such a great time."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D4:10",
+          "text": "Thanks, Caroline! Family time matters to me. What's up with you lately?"
+        },
+        {
+          "speaker": "Caroline",
+          "blip_caption": "a photo of a book shelf with many books on it",
+          "dia_id": "D4:11",
+          "text": "Lately, I've been looking into counseling and mental health as a career. I want to help people who have gone through the same things as me."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D4:12",
+          "text": "Sounds great! What kind of counseling and mental health services do you want to persue?"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D4:13",
+          "text": "I'm still figuring out the details, but I'm thinking of working with trans people, helping them accept themselves and supporting their mental health. Last Friday, I went to an LGBTQ+ counseling workshop and it was really enlightening. They talked about different therapeutic methods and how to best work with trans people. Seeing how passionate these pros were about making a safe space for people like me was amazing."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D4:14",
+          "text": "Woah, Caroline, it sounds like you're doing some impressive work. It's inspiring to see your dedication to helping others. What motivated you to pursue counseling?"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D4:15",
+          "text": "Thanks, Melanie. It really mattered. My own journey and the support I got made a huge difference. Now I want to help people go through it too. I saw how counseling and support groups improved my life, so I started caring more about mental health and understanding myself. Now I'm passionate about creating a safe, inviting place for people to grow."
+        },
+        {
+          "speaker": "Melanie",
+          "dia_id": "D4:16",
+          "text": "Wow, Caroline! You've gained so much from your own experience. Your passion and hard work to help others is awesome. Keep it up, you're making a big impact!"
+        },
+        {
+          "speaker": "Caroline",
+          "dia_id": "D4:17",
+          "text": "Thanks, Melanie! Your kind words mean a lot."
+        },
+        {
+          "speaker": "Melanie",
+          "blip_caption": "a photo of a book shelf filled with books in a room",
+          "dia_id": "D4:18",
+          "text": "Congrats Caroline! Good on you for going after what you really care about."
+        }
+      ]
+    },
+    "event_summary": {
+      "events_session_1": {
+        "Caroline": [
+          "Caroline attends an LGBTQ support group for the first time."
+        ],
+        "Melanie": [],
+        "date": "8 May, 2023"
+      },
+      "events_session_2": {
+        "Caroline": [
+          "Caroline is inspired by her supportive friends and mentors to start researching adoption agencies."
+        ],
+        "Melanie": [],
+        "date": "25 May, 2023"
+      },
+      "events_session_3": {
+        "Caroline": [
+          "Caroline speaks at her school and encourages students to get involved in the LGBTQ community."
+        ],
+        "Melanie": [],
+        "date": "9 June, 2023"
+      },
+      "events_session_4": {
+        "Caroline": [],
+        "Melanie": [
+          "Melanie takes her family camping for a weekend to bond."
+        ],
+        "date": "27 June, 2023"
+      }
+    },
+    "observation": {
+      "session_1_observation": {
+        "Caroline": [
+          [
+            "Caroline attended an LGBTQ support group recently and found the transgender stories inspiring.",
+            "D1:3"
+          ],
+          [
+            "The support group has made Caroline feel accepted and given her courage to embrace herself.",
+            "D1:7"
+          ],
+          [
+            "Caroline is planning to continue her education and explore career options in counseling or mental health to support those with similar issues.",
+            "D1:9"
+          ]
+        ],
+        "Melanie": [
+          [
+            "Melanie is currently managing kids and work and finds it overwhelming.",
+            "D1:2"
+          ],
+          [
+            "Melanie painted a lake sunrise last year which holds special meaning to her.",
+            "D1:14"
+          ],
+          [
+            "Painting is a fun way for Melanie to express her feelings and get creative, helping her relax after a long day.",
+            "D1:16"
+          ],
+          [
+            "Melanie is going swimming with the kids after the conversation.",
+            "D1:18"
+          ]
+        ]
+      },
+      "session_2_observation": {
+        "Melanie": [
+          [
+            "Melanie ran a charity race for mental health last Saturday.",
+            "D2:1"
+          ],
+          [
+            "Melanie is realizing the importance of self-care and its impact on her family.",
+            "D2:3"
+          ],
+          [
+            "Melanie carves out me-time each day for activities like running, reading, or playing the violin.",
+            "D2:5"
+          ],
+          [
+            "Melanie's kids are excited about summer break and they are considering going camping next month.",
+            "D2:7"
+          ]
+        ],
+        "Caroline": [
+          [
+            "Caroline is researching adoption agencies with the dream of having a family and providing a loving home to kids in need.",
+            "D2:8"
+          ],
+          [
+            "Caroline chose an adoption agency that helps LGBTQ+ folks with adoption due to their inclusivity and support.",
+            "D2:12"
+          ],
+          [
+            "Caroline is excited to create a family for kids who need one, even though she anticipates challenges as a single parent.",
+            "D2:14"
+          ]
+        ]
+      },
+      "session_3_observation": {
+        "Caroline": [
+          [
+            "Caroline started transitioning three years ago.",
+            "D3:1"
+          ],
+          [
+            "Caroline gave a talk at a school event about her transgender journey and encouraged students to get involved in the LGBTQ community.",
+            "D3:1"
+          ],
+          [
+            "Caroline believes conversations about gender identity and inclusion are necessary and is thankful for being able to give a voice to the trans community.",
+            "D3:3"
+          ],
+          [
+            "Caroline feels sharing experiences is important to help promote understanding and acceptance.",
+            "D3:5"
+          ],
+          [
+            "Caroline feels blessed with a lot of love and support throughout her journey.",
+            "D3:5"
+          ],
+          [
+            "Caroline aims to pass on the love and support she has received by sharing stories to build a strong and supportive community of hope.",
+            "D3:5"
+          ],
+          [
+            "Caroline's friends, family, and mentors are her rocks, motivating her and giving her strength to push on.",
+            "D3:11"
+          ],
+          [
+            "Caroline has known her friends for 4 years, since moving from her home country, and values their love and help, especially after a tough breakup.",
+            "D3:13"
+          ]
+        ],
+        "Melanie": [
+          [
+            "Melanie is supportive of Caroline and proud of her for spreading awareness and inspiring others in the LGBTQ community.",
+            "D3:2"
+          ],
+          [
+            "Melanie believes talking about inclusivity and acceptance is crucial.",
+            "D3:4"
+          ],
+          [
+            "Melanie values family moments and feels they make life awesome, alive, and happy.",
+            "D3:20"
+          ],
+          [
+            "Melanie has a husband and kids who keep her motivated.",
+            "D3:14"
+          ],
+          [
+            "Melanie has been married for 5 years.",
+            "D3:16"
+          ],
+          [
+            "Melanie cherishes time with family and feels most alive and happy during those moments.",
+            "D3:22"
+          ]
+        ]
+      },
+      "session_4_observation": {
+        "Caroline": [
+          [
+            "Caroline received a special necklace as a gift from her grandmother in Sweden, symbolizing love, faith, and strength.",
+            "D4:3"
+          ],
+          [
+            "Caroline treasures a hand-painted bowl made by a friend for her 18th birthday, which reminds her of art and self-expression.",
+            "D4:5"
+          ],
+          [
+            "Caroline is considering a career in counseling and mental health, particularly working with trans people to help them accept themselves and support their mental health.",
+            "D4:11"
+          ],
+          [
+            "Caroline attended an LGBTQ+ counseling workshop focused on therapeutic methods and supporting trans individuals, finding it enlightening and inspiring.",
+            "D4:13"
+          ],
+          [
+            "Caroline's motivation to pursue counseling comes from her own journey, the support she received, and the positive impact counseling had on her life.",
+            "D4:15"
+          ]
+        ],
+        "Melanie": [
+          [
+            "Melanie went camping with her family in the mountains last week and had a great time exploring nature, roasting marshmallows, and hiking.",
+            "D4:8"
+          ],
+          [
+            "Melanie values family time and finds it to be special and important.",
+            "D4:10"
+          ]
+        ]
+      }
+    },
+    "session_summary": {
+      "session_1_summary": "Caroline and Melanie had a conversation on 8 May 2023 at 1:56 pm. Caroline mentioned that she attended an LGBTQ support group and was inspired by the transgender stories she heard. The support group made her feel accepted and gave her the courage to embrace herself. Caroline plans to continue her education and explore career options, particularly in counseling or working in mental health. Melanie praised Caroline's empathy and mentioned that she painted a lake sunrise last year as a way of expressing herself. Caroline complimented Melanie's painting and agreed that painting is a great outlet for relaxation and self-expression. They both emphasized the importance of taking care of oneself. Caroline was going to do some research, while Melanie planned to go swimming with her kids.",
+      "session_2_summary": "On May 25, 2023 at 1:14 pm, Melanie tells Caroline about her recent experience running a charity race for mental health. Caroline expresses pride and agrees that taking care of oneself is important. Melanie shares her struggle with self-care but mentions that she is carving out time each day for activities that refresh her. Caroline encourages Melanie and praises her efforts. Melanie then asks Caroline about her plans for the summer, to which Caroline replies that she is researching adoption agencies as she wants to give a loving home to children in need. Melanie praises Caroline's decision and expresses excitement for her future family. Caroline explains that she chose an adoption agency that supports the LGBTQ+ community because of its inclusivity and support. Melanie commends Caroline's choice and asks what she is looking forward to in the adoption process. Caroline says she is thrilled to create a family for kids who need one, despite the challenges of being a single parent. Melanie encourages Caroline and expresses confidence in her ability to provide a safe and loving home. The conversation ends with Melanie expressing her excitement for Caroline's new chapter.",
+      "session_3_summary": "Caroline and Melanie had a conversation at 7:55 pm on 9 June, 2023. Caroline shared about her school event last week where she talked about her transgender journey and encouraged students to get involved in the LGBTQ community. Melanie praised Caroline for spreading awareness and inspiring others with her strength and courage. They discussed the importance of conversations about gender identity and inclusion. Caroline expressed gratitude for the support she has received and the opportunity to give a voice to the trans community. Melanie commended Caroline for using her voice to create love, acceptance, and hope. They talked about the power of sharing personal stories and the impact it can have on others. They both expressed a desire to make a positive difference and support each other. Melanie mentioned that her family motivates her, while Caroline mentioned that her friends, family, and mentors are her support system. They shared photos of their loved ones and talked about the length of their relationships. Melanie mentioned being married for 5 years and Caroline expressed congratulations and well-wishes. They discussed the importance of cherishing family moments and finding happiness in them. They both agreed that family is everything.",
+      "session_4_summary": "Caroline and Melanie catch up after a long time. Caroline shows Melanie her special necklace, which was a gift from her grandmother in Sweden and represents love, faith, and strength. Melanie admires it and asks if Caroline has any other treasured items. Caroline mentions a hand-painted bowl made by a friend on her 18th birthday, which reminds her of art and self-expression. Melanie shares that she recently went camping with her family and had a great time exploring nature and bonding with her kids. They discuss the importance of family moments. Caroline reveals that she is looking into a career in counseling and mental health, specifically wanting to work with trans people. She attended an LGBTQ+ counseling workshop and found it enlightening. Melanie praises Caroline for her dedication and asks about her motivation to pursue counseling. Caroline shares how her own journey and the support she received inspired her to help others. Melanie commends Caroline's hard work and passion. Caroline expresses gratitude for Melanie's kind words, and Melanie congratulates Caroline for pursuing what she cares about."
+    },
+    "sample_id": "conv-26"
+  },
+  {
+    "qa": [
+      {
+        "question": "When Jon has lost his job as a banker?",
+        "answer": "19 January, 2023",
+        "evidence": [
+          "D1:2"
+        ],
+        "category": 2
+      },
+      {
+        "question": "When Gina has lost her job at Door Dash?",
+        "answer": "January, 2023",
+        "evidence": [
+          "D1:3"
+        ],
+        "category": 2
+      },
+      {
+        "question": "How do Jon and Gina both like to destress?",
+        "answer": "by dancing",
+        "evidence": [
+          "D1:7",
+          "D1:6"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What do Jon and Gina both have in common?",
+        "answer": "They lost their jobs and decided to start their own businesses.",
+        "evidence": [
+          "D1:2",
+          "D1:3",
+          "D1:4",
+          "D2:1"
+        ],
+        "category": 1
+      },
+      {
+        "question": "Why did Jon decide to start his dance studio?",
+        "answer": "He lost his job and decided to start his own business to share his passion.",
+        "evidence": [
+          "D1:2",
+          "D1:4"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What Jon thinks the ideal dance studio should look like?",
+        "answer": "By the water, with natural light and Marley flooring",
+        "evidence": [
+          "D1:20",
+          "D2:4",
+          "D2:8"
+        ],
+        "category": 1
+      },
+      {
+        "question": "When is Jon's group performing at a festival?",
+        "answer": "February, 2023",
+        "evidence": [
+          "D1:24"
+        ],
+        "category": 2
+      },
+      {
+        "question": "When did Gina launch an ad campaign for her store?",
+        "answer": "29 January, 2023",
+        "evidence": [
+          "D2:1"
+        ],
+        "category": 2
+      },
+      {
+        "question": "When was Jon in Paris?",
+        "answer": "28 January 2023",
+        "evidence": [
+          "D2:4"
+        ],
+        "category": 2
+      },
+      {
+        "question": "What is Gina's favorite style of dance?",
+        "answer": "Contemporary",
+        "evidence": [
+          "D1:9"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What is Jon's favorite style of dance?",
+        "answer": "Contemporary",
+        "evidence": [
+          "D1:8"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What was Gina's favorite dancing memory?",
+        "answer": "Winning first place at a regionals dance competition",
+        "evidence": [
+          "D1:17"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What kind of dance piece did Gina's team perform to win first place?",
+        "answer": "\"Finding Freedom\"",
+        "evidence": [
+          "D1:19"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What do the dancers in the photo represent?",
+        "answer": "They are performing at the festival",
+        "evidence": [
+          "D1:25"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What does Gina say about the dancers in the photo?",
+        "answer": "They look graceful",
+        "evidence": [
+          "D1:26"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What is Jon's attitude towards being part of the dance festival?",
+        "answer": "Glad",
+        "evidence": [
+          "D1:28"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What kind of flooring is Jon looking for in his dance studio?",
+        "answer": "Marley flooring",
+        "evidence": [
+          "D2:8"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What did Gina find for her clothing store on 1 February, 2023?",
+        "answer": "The perfect spot for her store",
+        "evidence": [
+          "D3:2"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What did Gina design for her store?",
+        "answer": "the space, furniture, and decor",
+        "evidence": [
+          "D3:4"
+        ],
+        "category": 4
+      },
+      {
+        "question": "What did Gina want her customers to feel in her store?",
+        "answer": "cozy and comfortable",
+        "evidence": [
+          "D3:6",
+          "D3:8"
+        ],
+        "category": 4
+      }
+    ],
+    "conversation": {
+      "speaker_a": "Jon",
+      "speaker_b": "Gina",
+      "session_1_date_time": "4:04 pm on 20 January, 2023",
+      "session_1": [
+        {
+          "speaker": "Gina",
+          "dia_id": "D1:1",
+          "text": "Hey Jon! Good to see you. What's up? Anything new?"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D1:2",
+          "text": "Hey Gina! Good to see you too. Lost my job as a banker yesterday, so I'm gonna take a shot at starting my own business."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D1:3",
+          "text": "Sorry about your job Jon, but starting your own business sounds awesome! Unfortunately, I also lost my job at Door Dash this month. What business are you thinking of?"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D1:4",
+          "text": "Sorry to hear that! I'm starting a dance studio 'cause I'm passionate about dancing and it'd be great to share it with others."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D1:5",
+          "text": "That's cool, Jon! What got you into this biz?"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D1:6",
+          "text": "I've been into dancing since I was a kid and it's been my passion and escape. I wanna start a dance studio so I can teach others the joy that dancing brings me."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D1:7",
+          "text": "Wow Jon, same here! Dance is pretty much my go-to for stress relief. Got any fave styles?"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D1:8",
+          "text": "Cool, Gina! I love all dances, but contemporary is my top pick. It's so expressive and powerful! What's your fave?"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D1:9",
+          "text": "Yeah, me too! Contemporary dance is so expressive and graceful - it really speaks to me."
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D1:10",
+          "text": "Wow, great idea! Let's go to a dance class, it'll be so much fun!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D1:11",
+          "text": "Yeah! Let's explore some new dance moves. We should plan a dance session soon!"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D1:12",
+          "text": "Yeah definitely! Wanna see my moves next Fri? Can't wait!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D1:13",
+          "text": "Sounds great, Jon! Next Friday works. Let's boogie!"
+        },
+        {
+          "speaker": "Jon",
+          "img_url": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a9/Dekkadancers_Mu%C5%BE_z_Malty.jpg"
+          ],
+          "blip_caption": "a photography of a man in a suit is performing a dance",
+          "query": "dancing on stage performance dance competition last year",
+          "dia_id": "D1:14",
+          "re-download": true,
+          "text": "Wow, I'm excited too! This is gonna be great!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D1:15",
+          "text": "Wow! What did you get?"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D1:16",
+          "text": "Woah, that pic's from when my dance crew took home first in a local comp last year. It was amazing up on that stage! I'm super keen to spread that intensity with other peeps. Gina, you ever been in any dance comps or shows?"
+        },
+        {
+          "speaker": "Gina",
+          "img_url": [
+            "https://upload.wikimedia.org/wikipedia/commons/4/41/2009_NHK_Trophy_Dance_-_Meryl_DAVIS_-_Charlie_WHITE_-_Gold_Medal_-_0948a.jpg"
+          ],
+          "blip_caption": "a photography of a couple of people standing next to each other",
+          "query": "dance competition trophy team",
+          "dia_id": "D1:17",
+          "re-download": true,
+          "text": "I used to compete in a few dance competitions and shows - my fav memory was when my team won first place at a regionals at age fifteen. It was an awesome feeling of accomplishment!"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D1:18",
+          "text": "Wow! Winning first place is amazing! What dance were you doing?"
+        },
+        {
+          "speaker": "Gina",
+          "blip_caption": "a photo of a large open porch with a fireplace and a view of the water",
+          "dia_id": "D1:19",
+          "text": "Thanks! We just did a contemporary piece called \"Finding Freedom.\" It was really emotional and powerful."
+        },
+        {
+          "speaker": "Jon",
+          "img_url": [
+            "https://live.staticflickr.com/2730/4360526470_6bee96b5d7_b.jpg"
+          ],
+          "blip_caption": "a photography of a room with a view of the ocean and a few yoga mats",
+          "query": "dance studio overlooking ocean",
+          "dia_id": "D1:20",
+          "re-download": true,
+          "text": "Wow, that must've been great! Check my ideal dance studio by the water."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D1:21",
+          "text": "Cool setup! Man, you can't deny that view! Got time to rehearse with a biz and a new store?"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D1:22",
+          "text": "Hopefully, we will find a place like this that will inspire us!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D1:23",
+          "text": "Wow, it looks great! What dances do you practice? Got any projects planned?"
+        },
+        {
+          "speaker": "Jon",
+          "img_url": [
+            "https://markmorrisdancegroup.org/wp-content/uploads/2021/04/MM0108_JesuMeineFreude_Boston_BrazilTom_02.jpg"
+          ],
+          "blip_caption": "a photo of a group of dancers in white dresses on a stage",
+          "query": "group dancers performing on stage",
+          "dia_id": "D1:24",
+          "text": "Thanks! I rehearsed with a small group of dancers after work. We do all kinds of dances, from contemporary to hip-hop. We've got some cool projects in the works. Finishing up choreography to perform at a nearby festival next month. Can't wait!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D1:25",
+          "text": "Wow, it looks awesome! Are they yours at the festival? They're so graceful!"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D1:26",
+          "text": "Yeah, they're the ones performing at the festival! They've been practicing hard and will definitely impress with their grace and skill."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D1:27",
+          "text": "Wow, they look great! Can't wait to see them rock the festival. Gonna be awesome!"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D1:28",
+          "text": "Yeah, awesome! Glad to be part of it."
+        }
+      ],
+      "session_2_date_time": "2:32 pm on 29 January, 2023",
+      "session_2": [
+        {
+          "speaker": "Gina",
+          "blip_caption": "a photo of a clothing store with a variety of clothes on display",
+          "dia_id": "D2:1",
+          "re-download": true,
+          "text": "Hey Jon! Long time no see! Things have been hectic lately. I just launched an ad campaign for my clothing store in hopes of growing the business. Starting my own store and taking risks is both scary and rewarding. I'm excited to see where it takes me!"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D2:2",
+          "text": "Hey Gina! Whoa, your store looks great! All your hard work really paid off - congrats! Must be awesome to see your stuff on display."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D2:3",
+          "text": "Thanks a bunch! It's awesome seeing my vision happen. How's the dance studio going? Did you find the right spot?"
+        },
+        {
+          "speaker": "Jon",
+          "img_url": [
+            "https://avvay-aws-production.imgix.net/space-media/space-media-422692-prod.jpg"
+          ],
+          "blip_caption": "a photo of a bathroom with a blue floor and a pink wall",
+          "query": "dance studio natural lighting spacious room large windows dance mirrors",
+          "dia_id": "D2:4",
+          "text": "Hey Gina! Thanks for asking. I'm on the hunt for the ideal spot for my dance studio and it's been quite a journey! I've been looking at different places and picturing how the space would look. I even found a place with great natural light! Oh, I've been to Paris yesterday! It was sooo cool."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D2:5",
+          "text": "Wow, nice spot! Where is it? Got any other features you want to think about before you decide? Paris?! That is really great Jon! Never had a chance to visit it. Been only to Rome once."
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D2:6",
+          "text": "It's downtown which is awesome cuz it's easy to get to. Plus the natural light! Gotta check the size & floor quality too. We need a good dance floor with enough bounce for me & my students to dance safely."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D2:7",
+          "text": "Definitely! Dance floors help avoid injuries and make dancing more enjoyable. You thinking about it is great. Any particular type of flooring you like?"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D2:8",
+          "text": "Yeah, good flooring's crucial. I'm after Marley flooring, which is what dance studios usually use. It's great 'cause it's grippy but still lets you move, plus it's tough and easy to keep clean."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D2:9",
+          "text": "Sounds great! Marley's perfect; it's got the right amount of grip and movement. Can't wait to see your dance studio done!"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D2:10",
+          "text": "Yeah, can't wait to see it done! Looking for the right place and getting everything ready has been a mix of exciting and nerve-wracking, but I'm determined to make it work. It'll be worth it!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D2:11",
+          "text": "Believe in yourself, Jon! The process may be tough, but you got this. Push through and it'll be worth it. Don't forget to take breaks and dance it out when you need to destress!"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D2:12",
+          "text": "Glad I have you in my corner! Gotta make time to dance and vent, that's for sure. We'll make it through this - hang in there!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D2:13",
+          "text": "Thanks, Jon! Appreciate your support!"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D2:14",
+          "text": "Let's keep going and chase our dreams!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D2:15",
+          "text": "Yeah! We've done so much, and there's nothing but good stuff coming. Let's keep going after our goals and making them happen."
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D2:16",
+          "text": "Success is almost here. We got this!"
+        }
+      ],
+      "session_3_date_time": "12:48 am on 1 February, 2023",
+      "session_3": [
+        {
+          "speaker": "Jon",
+          "dia_id": "D3:1",
+          "text": "Hey Gina, hope you're doing ok! Still following my passion for dance. It's been bumpy, but I'm determined to make it work. I'm still searching for a place to open my dance studio."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D3:2",
+          "img_url": [
+            "https://s0.geograph.org.uk/photos/44/02/440245_a865f9d5.jpg"
+          ],
+          "re-download": true,
+          "blip_caption": "a photography of a shopping mall with a glass entrance and a sign",
+          "text": "Hi Jon! So happy you're pushing forward with dancing! Inspiring \ud83d\udcaa I emailed some wholesalers and one replied and said yes today! I'm over the moon because now I can expand my clothing store and get closer to my customers. Check it out - here's a pic!"
+        },
+        {
+          "speaker": "Jon",
+          "blip_caption": "a photo of a room with a mirror and a wooden floor",
+          "dia_id": "D3:3",
+          "text": "Wow, Gina! You found the perfect spot for your store. Way to go, hard work's paying off!"
+        },
+        {
+          "speaker": "Gina",
+          "img_url": [
+            "https://live.staticflickr.com/610/23124623885_9aab7b3e2e_b.jpg"
+          ],
+          "blip_caption": "a photography of a clothing store with a lot of clothes on display",
+          "query": "inside of store cozy inviting atmosphere trendy pieces",
+          "dia_id": "D3:4",
+          "re-download": true,
+          "text": "Thanks! Glad you like it. Yeah, it's a great spot. Here's a peek at the space I designed. Cozy and inviting - perfect for customers to check out all the trendy pieces."
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D3:5",
+          "text": "Wow, it looks great! Must've taken you ages to design it. What made you pick out the furniture and decor?"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D3:6",
+          "text": "Thanks! It took a bit of time but I wanted to make the place look like my own style and make my customers feel cozy. I chose furniture that looks great and is comfy too. The chandelier adds a nice glam feel while matching the style of the store."
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D3:7",
+          "text": "Your store looks great - your customers will be so comfy."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D3:8",
+          "text": "Thanks! Making my spot comfortable and inviting for my customers is key. I want 'em to feel like they're in a cool oasis. Just creating an experience that'll make 'em wanna come back."
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D3:9",
+          "text": "That's a great goal! Creating a special experience for customers is the key to making them feel welcome and coming back. I think you can create that space you're imagining."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D3:10",
+          "text": "Thanks. Your support means a lot. I'm sure with my hard work and effort, I can make a special shopping experience for my customers. It's tough but I'm up for the challenge!"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D3:11",
+          "text": "I'm always here to support you! Go create something awesome with your store. Keep it up!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D3:12",
+          "text": "Thanks, Jon! I'll try my best. You're gonna do great with your dance studio, just keep going and stay positive! We'll get through this!"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D3:13",
+          "text": "Thanks! Your words mean a lot. I'm staying positive and pushing forward. We've put our hearts into our dreams and I'm sure we'll make it."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D3:14",
+          "text": "Sure thing, Jon! Stay motivated and keep going. Hard work pays off eventually. We can do this!"
+        }
+      ],
+      "session_4_date_time": "10:43 am on 4 February, 2023",
+      "session_4": [
+        {
+          "speaker": "Jon",
+          "dia_id": "D4:1",
+          "text": "Hey Gina! What's up? How's the store going? I gotta tell you about this thing with my biz."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D4:2",
+          "text": "Hey Jon! The store's doing great! It's a wild ride. How's the biz?"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D4:3",
+          "text": "Hey Gina! I'm putting in a lot of work on my business even with the obstacles. I'm gonna make it happen!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D4:4",
+          "text": "Wow! You've got drive! Keep it up and you'll definitely make a splash."
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D4:5",
+          "text": "Thanks Gina! Your help really means a lot. Sometimes it's hard when things don't go my way, but I'm sure if I keep pushing, I'll reach my dreams!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D4:6",
+          "text": "Understand where you're at, Jon. Setbacks are just opportunities for comebacks. You got the skills, passion, and drive. Plus my full support. Don't give up, buddy!"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D4:7",
+          "text": "Thanks! Setbacks can be tough, but with your support, I can handle anything. Appreciate you having my back!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D4:8",
+          "text": "I'm here for you no matter what! Anything you want to say about your biz?"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D4:9",
+          "text": "Searching for a dance studio location has been tricky, but I'm determined to find the right spot - when I do, I'm sure the rest will follow!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D4:10",
+          "text": "Searching for the perfect dance studio's a tough job, Jon. Hang in there and you'll find it soon!"
+        },
+        {
+          "speaker": "Jon",
+          "blip_caption": "a photo of a woman in a gray dress doing a trick",
+          "dia_id": "D4:11",
+          "text": "Thanks! Appreciate your encouragement - it means a lot! I'm working on my business and some new dance routines - rehearsing hard for an upcoming show. I'm passionate about dancing and it brings me so much joy and fulfillment."
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D4:12",
+          "text": "Wow, Jon! You're so talented! What show ya got planned?"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D4:13",
+          "text": "I'm getting ready for a dance comp near me next month. It's a great chance for me to show my skillz and, hopefully, get some props from the dance fam. Super stoked!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D4:14",
+          "text": "Wow Jon, you're gonna kill it in that competition. Your hard work and talent will pay off! Good luck."
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D4:15",
+          "text": "Thanks! Your help means a lot. I'll do my best to make you proud!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D4:16",
+          "text": "No doubt, Jon you've got this. Your passion and commitment are awesome! Keep it up!"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D4:17",
+          "text": "Thanks! I'm going for my dreams!"
+        },
+        {
+          "speaker": "Gina",
+          "dia_id": "D4:18",
+          "text": "Absolutely Jon. I'm always here to cheer you on. Make your dreams happen - keep going and believe in yourself. You got this!"
+        },
+        {
+          "speaker": "Jon",
+          "dia_id": "D4:19",
+          "text": "Thanks, Gina! Your kind words mean a lot. I won't give up!"
+        }
+      ]
+    },
+    "event_summary": {
+      "events_session_1": {
+        "Jon": [
+          "Jon loses his job as a banker.",
+          "Jon begins planning for his own business venture."
+        ],
+        "Gina": [
+          "Gina loses her job at Door Dash."
+        ],
+        "date": "20 January, 2023"
+      },
+      "events_session_2": {
+        "Jon": [
+          "Jon returns from a trip to Paris."
+        ],
+        "Gina": [
+          "Gina orders advertising to promote her store."
+        ],
+        "date": "29 January, 2023"
+      },
+      "events_session_3": {
+        "Jon": [],
+        "Gina": [
+          "Gina reaches out to potential wholesalers."
+        ],
+        "date": "1 February, 2023"
+      },
+      "events_session_4": {
+        "Jon": [
+          "Jon puts in a great deal of effort into his own business venture despite the difficulties.",
+          "Jon starts rehearsing for an upcoming dance competition."
+        ],
+        "Gina": [],
+        "date": "4 February, 2023"
+      }
+    },
+    "observation": {
+      "session_1_observation": {
+        "Gina": [
+          [
+            "Gina lost her job at Door Dash during the month of the conversation.",
+            "D1:3"
+          ],
+          [
+            "Gina used to compete in dance competitions and shows, winning first place in a regional competition at the age of fifteen.",
+            "D1:17"
+          ],
+          [
+            "Gina's favorite dance style is contemporary.",
+            "D1:9"
+          ]
+        ],
+        "Jon": [
+          [
+            "Jon lost his job as a banker the day before the conversation.",
+            "D1:2"
+          ],
+          [
+            "Jon is starting his own dance studio due to his passion for dancing.",
+            "D1:4"
+          ],
+          [
+            "Jon's favorite dance style is contemporary.",
+            "D1:8"
+          ],
+          [
+            "Jon practices various dances with a small group, including contemporary and hip-hop, and is working on choreography for a nearby festival.",
+            "D1:24"
+          ]
+        ]
+      },
+      "session_2_observation": {
+        "Gina": [
+          [
+            "Gina launched an ad campaign for her clothing store in hopes of growing the business.",
+            "D2:1"
+          ],
+          [
+            "Gina started her own clothing store and finds taking risks scary but rewarding.",
+            "D2:1"
+          ],
+          [
+            "Gina appreciates seeing her vision for the store come to life.",
+            "D2:3"
+          ],
+          [
+            "Gina has been to Rome once.",
+            "D2:5"
+          ],
+          [
+            "Gina believes that good flooring helps avoid injuries and makes dancing more enjoyable.",
+            "D2:7"
+          ],
+          [
+            "Gina appreciates Jon's determination to make his dance studio work.",
+            "D2:11"
+          ]
+        ],
+        "Jon": [
+          [
+            "Jon is looking for the ideal spot for his dance studio and is considering features like size, natural light, and flooring.",
+            "D2:4"
+          ],
+          [
+            "Jon visited Paris recently",
+            "D2:4"
+          ],
+          [
+            "Jon is looking for Marley flooring for his dance studio due to its grip, movement, durability, and cleanliness.",
+            "D2:8"
+          ],
+          [
+            "Jon finds the process of setting up his dance studio a mix of exciting and nerve-wracking but is determined to make it work.",
+            "D2:10"
+          ],
+          [
+            "Jon believes in himself and is grateful for Gina's support.",
+            "D2:12"
+          ]
+        ]
+      },
+      "session_3_observation": {
+        "Jon": [
+          [
+            "Jon is following his passion for dance and searching for a place to open his dance studio.",
+            "D3:1"
+          ]
+        ],
+        "Gina": [
+          [
+            "Gina is enthusiastic about expanding her clothing store and successfully got a positive response from a wholesaler.",
+            "D3:2"
+          ],
+          [
+            "Gina designed her clothing store space to be cozy and inviting for her customers.",
+            "D3:4"
+          ],
+          [
+            "Gina chose furniture and decor for her store that match her style and make customers feel comfortable.",
+            "D3:6"
+          ],
+          [
+            "Gina's goal is to create a comfortable and inviting shopping experience for her customers.",
+            "D3:8"
+          ]
+        ]
+      },
+      "session_4_observation": {
+        "Jon": [
+          [
+            "Jon is working hard on his business despite facing obstacles.",
+            "D4:3"
+          ],
+          [
+            "Jon is determined to make his business successful and reach his dreams.",
+            "D4:5"
+          ],
+          [
+            "Jon is searching for a dance studio location and is determined to find the right spot.",
+            "D4:9"
+          ],
+          [
+            "Jon is working on new dance routines and rehearsing hard for an upcoming show.",
+            "D4:11"
+          ],
+          [
+            "Jon is passionate about dancing and it brings him joy and fulfillment.",
+            "D4:11"
+          ],
+          [
+            "Jon is preparing for a dance competition near him next month to showcase his skills.",
+            "D4:13"
+          ]
+        ],
+        "Gina": [
+          [
+            "Gina's store is doing great and it's a wild ride.",
+            "D4:2"
+          ],
+          [
+            "Gina encourages Jon to keep pushing, assuring him he'll reach his dreams.",
+            "D4:4"
+          ],
+          [
+            "Gina supports Jon through setbacks and encourages him not to give up.",
+            "D4:6"
+          ],
+          [
+            "Gina is supportive of Jon and assures him that setbacks can be overcome.",
+            "D4:6"
+          ],
+          [
+            "Gina expresses full support for Jon and encourages him not to give up.",
+            "D4:6"
+          ],
+          [
+            "Gina encourages Jon to hang in there while searching for the perfect dance studio location.",
+            "D4:10"
+          ],
+          [
+            "Gina compliments Jon's talent and expresses confidence in his success in the upcoming dance competition.",
+            "D4:14"
+          ]
+        ]
+      }
+    },
+    "session_summary": {
+      "session_1_summary": "Gina and Jon met at 4:04 pm on 20 January, 2023. Jon lost his job as a banker and planned to start a dance studio because of his passion for dancing. Gina also lost her job at Door Dash. They both shared a love for dance, with Jon's favorite style being contemporary. They planned to attend a dance class together. Jon showed Gina a photo of his dance crew winning a competition. Gina revealed her experience of winning first place with a contemporary piece in a dance competition. Jon mentioned rehearsing with a group for various dance styles and upcoming projects, including a performance at a festival. Gina complimented the group's grace and expressed excitement for their festival performance. They both shared enthusiasm for the upcoming events.",
+      "session_2_summary": "Gina and Jon had a conversation at 2:32 pm on 29 January, 2023. Gina mentioned launching an ad campaign for her clothing store, excited about the risks and rewards of her business. Jon complimented her hard work and discussed his search for a suitable location for his dance studio, mentioning finding a spot with great natural light. They discussed the importance of features like flooring for dance studios, with Jon preferring Marley flooring. Gina encouraged Jon to believe in himself and take breaks when needed. They both expressed determination to chase their dreams and achieve success.",
+      "session_3_summary": "At 12:48 am on 1 February 2023, Jon shared with Gina his determination to open a dance studio, while Gina revealed her success in expanding her clothing store. Gina showed Jon a picture of her new store, which he admired, and they discussed the design elements. Gina aimed to create a cozy and inviting space for her customers. They both emphasized the importance of creating a special experience for customers. Jon encouraged Gina to continue her hard work, and she reciprocated the support for his dance studio venture. They both expressed confidence in reaching their goals with hard work and determination.",
+      "session_4_summary": "Jon and Gina, at 10:43 am on 4 February, 2023, discussed Jon's business endeavors. While Jon faced obstacles, Gina encouraged him to persevere, mentioning setbacks as opportunities for comebacks. Jon mentioned his passion for dancing and preparation for an upcoming competition, with Gina supporting him wholeheartedly. They exchanged words of encouragement, with Jon expressing gratitude for Gina's help and Gina assuring him that his hard work and dedication will pay off. Gina emphasized belief in oneself, encouraging Jon to pursue his dreams relentlessly."
+    },
+    "sample_id": "conv-30"
+  }
+]

@@ -1,0 +1,198 @@
+{
+  "summary": {
+    "action_counts": {
+      "ADD": 5221,
+      "UPDATE": 601,
+      "EMPTY_RESULT": 178
+    },
+    "api_stats": {
+      "add_api_calls": 1696,
+      "messages_sent": 11764,
+      "graph_relations_added": 0,
+      "graph_relations_deleted": 0
+    },
+    "usage_stats": {
+      "enabled": true,
+      "llm_calls": 9057,
+      "llm_failures": 0,
+      "prompt_tokens": 2130859,
+      "completion_tokens": 82632,
+      "total_tokens": 2213491,
+      "tokens_per_call": 244.39560560892127,
+      "total_latency_s": 5934.809,
+      "avg_latency_s": 0.6553,
+      "min_latency_s": 0.1069,
+      "max_latency_s": 29.757,
+      "per_model": {
+        "gpt-4o-mini": {
+          "calls": 2297,
+          "prompt_tokens": 2072575,
+          "completion_tokens": 82632,
+          "total_tokens": 2155207,
+          "total_latency": 4044.876483391621
+        },
+        "text-embedding-3-small": {
+          "calls": 6760,
+          "prompt_tokens": 58284,
+          "completion_tokens": 0,
+          "total_tokens": 58284,
+          "total_latency": 1889.9324738255236
+        }
+      }
+    }
+  },
+  "per_user_action_counts": {
+    "Joanna_3": {
+      "ADD": 263,
+      "UPDATE": 32,
+      "EMPTY_RESULT": 4
+    },
+    "Caroline_0": {
+      "ADD": 230,
+      "UPDATE": 15,
+      "EMPTY_RESULT": 5
+    },
+    "Audrey_5": {
+      "ADD": 317,
+      "UPDATE": 62,
+      "EMPTY_RESULT": 4
+    },
+    "Evan_8": {
+      "ADD": 219,
+      "EMPTY_RESULT": 13,
+      "UPDATE": 20
+    },
+    "Tim_4": {
+      "ADD": 297,
+      "EMPTY_RESULT": 14,
+      "UPDATE": 17
+    },
+    "John_2": {
+      "ADD": 301,
+      "EMPTY_RESULT": 10,
+      "UPDATE": 29
+    },
+    "Jon_1": {
+      "ADD": 167,
+      "UPDATE": 26,
+      "EMPTY_RESULT": 1
+    },
+    "Calvin_9": {
+      "ADD": 257,
+      "UPDATE": 32,
+      "EMPTY_RESULT": 9
+    },
+    "Deborah_7": {
+      "ADD": 293,
+      "UPDATE": 38,
+      "EMPTY_RESULT": 10
+    },
+    "Sam_8": {
+      "ADD": 184,
+      "EMPTY_RESULT": 16,
+      "UPDATE": 19
+    },
+    "Nate_3": {
+      "ADD": 266,
+      "UPDATE": 30,
+      "EMPTY_RESULT": 6
+    },
+    "Melanie_0": {
+      "EMPTY_RESULT": 4,
+      "ADD": 196,
+      "UPDATE": 22
+    },
+    "Maria_2": {
+      "ADD": 280,
+      "EMPTY_RESULT": 17,
+      "UPDATE": 26
+    },
+    "Andrew_5": {
+      "ADD": 282,
+      "UPDATE": 52,
+      "EMPTY_RESULT": 10
+    },
+    "John_4": {
+      "ADD": 330,
+      "UPDATE": 26,
+      "EMPTY_RESULT": 10
+    },
+    "Dave_9": {
+      "ADD": 254,
+      "UPDATE": 32,
+      "EMPTY_RESULT": 9
+    },
+    "Jolene_7": {
+      "ADD": 310,
+      "UPDATE": 46,
+      "EMPTY_RESULT": 4
+    },
+    "Gina_1": {
+      "ADD": 131,
+      "UPDATE": 19,
+      "EMPTY_RESULT": 11
+    },
+    "James_6": {
+      "ADD": 350,
+      "UPDATE": 25,
+      "EMPTY_RESULT": 9
+    },
+    "John_6": {
+      "ADD": 294,
+      "UPDATE": 33,
+      "EMPTY_RESULT": 12
+    }
+  },
+  "per_conversation_action_counts": {
+    "3": {
+      "ADD": 529,
+      "UPDATE": 62,
+      "EMPTY_RESULT": 10
+    },
+    "0": {
+      "ADD": 426,
+      "UPDATE": 37,
+      "EMPTY_RESULT": 9
+    },
+    "5": {
+      "ADD": 599,
+      "UPDATE": 114,
+      "EMPTY_RESULT": 14
+    },
+    "8": {
+      "ADD": 403,
+      "EMPTY_RESULT": 29,
+      "UPDATE": 39
+    },
+    "4": {
+      "ADD": 627,
+      "UPDATE": 43,
+      "EMPTY_RESULT": 24
+    },
+    "2": {
+      "ADD": 581,
+      "EMPTY_RESULT": 27,
+      "UPDATE": 55
+    },
+    "1": {
+      "ADD": 298,
+      "UPDATE": 45,
+      "EMPTY_RESULT": 12
+    },
+    "9": {
+      "ADD": 511,
+      "UPDATE": 64,
+      "EMPTY_RESULT": 18
+    },
+    "7": {
+      "ADD": 603,
+      "UPDATE": 84,
+      "EMPTY_RESULT": 14
+    },
+    "6": {
+      "ADD": 644,
+      "UPDATE": 58,
+      "EMPTY_RESULT": 21
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "_comment": "Measured wall-clock (minutes) from the run logs' [TIMER] lines, full LoCoMo, gpt-4o-mini backbone, batch_size=8. Used by make_results_tex.py for the efficiency table. add_min/search_min are the add and search phase durations; total_min is end-to-end.",
+  "mem0_full": {"add_min": 39.26, "search_min": 66.72, "total_min": 106.32},
+  "sage_full": {"add_min": 15.65, "search_min": 65.46, "total_min": 81.54}
+}
