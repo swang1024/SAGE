@@ -20,6 +20,8 @@ path that issues far fewer write-side LLM calls and generates far fewer tokens.
 </p>
 <p align="center"><em>As the memory scope expands and the projection subspace becomes more densely populated, the baseline novelty scores of incoming candidates naturally trend downward because new facts are more likely to fall near established memories. To prevent the system from becoming overly conservative, the adaptive threshold &tau;<sub>t</sub> (the solid blue line) decays over time in response to the increasing density proxy &rho;<sub>t</sub>.</em></p>
 
+> **🔬 [Try the interactive novelty-gate demo &rarr;](https://swang1024.github.io/SAGE/demo/sage_novelty_gate_demo.html)** &mdash; add candidate facts and watch the vMF-KDE novelty score and adaptive threshold route each one to NOOP / UPDATE / ADD, all in the browser.
+
 ## Results (LoCoMo, gpt-4o-mini)
 
 Measured on full LoCoMo with a gpt-4o-mini backbone and a gpt-4o-mini LLM-as-judge
