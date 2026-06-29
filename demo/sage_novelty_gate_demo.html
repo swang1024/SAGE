@@ -1,0 +1,751 @@
+e
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="./support.js"></script>
+</head>
+
+<body>
+  <x-dc>
+    <helmet>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+      <style>
+        * {
+          box-sizing: border-box
+        }
+
+        html,
+        body {
+          margin: 0;
+          height: 100%;
+          background: #06080c;
+          overflow: hidden
+        }
+
+        @keyframes sageBlink {
+
+          0%,
+          100% {
+            opacity: .35
+          }
+
+          50% {
+            opacity: 1
+          }
+        }
+      </style>
+    </helmet>
+    <template id="__bundler_thumbnail">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100" height="100" fill="#06080c" />
+        <circle cx="50" cy="50" r="20" fill="none" stroke="#56687c" stroke-width="1.2" />
+        <ellipse cx="50" cy="50" rx="20" ry="7" fill="none" stroke="#56687c" stroke-width="0.8" />
+        <circle cx="62" cy="42" r="2.4" fill="#34d399" />
+        <circle cx="44" cy="58" r="2.4" fill="#f5b13d" />
+        <circle cx="38" cy="44" r="1.8" fill="#35d6ea" />
+        <line x1="14" y1="50" x2="30" y2="50" stroke="#35d6ea" stroke-width="1.2" />
+      </svg>
+    </template>
+    <div
+      style="position:fixed;inset:0;display:flex;flex-direction:column;background:radial-gradient(120% 90% at 60% 0%,#0b1018 0%,#06080c 60%,#04060a 100%);color:#c7d0db;font-family:'IBM Plex Sans',system-ui,sans-serif;font-size:13px;-webkit-font-smoothing:antialiased">
+
+      <!-- ============ HEADER ============ -->
+      <header
+        style="display:flex;align-items:center;justify-content:space-between;padding:14px 22px;border-bottom:1px solid #141b25;flex:none">
+        <div style="display:flex;align-items:baseline;gap:14px">
+          <span
+            style="font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:15px;letter-spacing:.04em;color:#eef3f8">SAGE</span>
+          <span style="width:1px;height:13px;background:#283341;align-self:center"></span>
+          <span style="color:#7c8a99;letter-spacing:.01em">A novelty gate for memory evolution — routing writes <span
+              style="color:#aeb9c6">without an LLM call</span></span>
+        </div>
+        <div style="display:flex;align-items:center;gap:16px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#55616f">vMF·KDE → adaptive τ</span>
+          <span
+            style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#55616f;border:1px solid #1d2733;padding:3px 8px;border-radius:3px">arXiv:2605.30711</span>
+          <button onClick="{{ onReplay }}"
+            style="display:flex;align-items:center;gap:7px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:#06080c;background:#35d6ea;border:none;padding:7px 14px;border-radius:4px;cursor:pointer;font-weight:600;letter-spacing:.02em"
+            style-hover="background:#5fe2f2">
+            <span style="font-size:11px">▸</span> REPLAY
+          </button>
+        </div>
+      </header>
+
+      <!-- ============ STAGE ============ -->
+      <div style="position:relative;flex:1;min-height:0">
+        <div ref="{{ wrapRef }}" style="position:absolute;inset:0">
+          <canvas ref="{{ canvasRef }}" style="position:absolute;inset:0;width:100%;height:100%;display:block"></canvas>
+        </div>
+
+        <!-- center caption under sphere -->
+        <div
+          style="position:absolute;left:50%;bottom:18px;transform:translateX(-50%);text-align:center;pointer-events:none">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.18em;color:#3f4a58">UNIT
+            HYPERSPHERE · L2-NORMALIZED MEMORY SCOPE</div>
+        </div>
+
+        <!-- ===== LEFT RAIL: NOVELTY GAUGE ===== -->
+        <div
+          style="position:absolute;left:22px;top:24px;bottom:24px;width:128px;display:flex;flex-direction:column;gap:8px">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;flex:none">
+            <span
+              style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.14em;color:#6c7a8a">NOVELTY</span>
+            <span ref="{{ novReadRef }}"
+              style="font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;color:#35d6ea">0.00</span>
+          </div>
+
+          <div
+            style="position:relative;flex:1;min-height:120px;width:100%;border:1px solid #18212c;border-radius:5px;background:linear-gradient(180deg,#0a0f16,#080b11);overflow:hidden">
+            <!-- band zones -->
+            <div ref="{{ zoneAddRef }}" style="position:absolute;left:0;right:0;top:0;background:rgba(52,211,153,.07)">
+            </div>
+            <div ref="{{ zoneUpdRef }}" style="position:absolute;left:0;right:0;background:rgba(245,177,61,.07)"></div>
+            <div ref="{{ zoneSkipRef }}"
+              style="position:absolute;left:0;right:0;bottom:0;background:rgba(107,116,128,.05)"></div>
+
+            <!-- gridlines -->
+            <div style="position:absolute;left:0;right:0;top:25%;height:1px;background:#10171f"></div>
+            <div style="position:absolute;left:0;right:0;top:50%;height:1px;background:#10171f"></div>
+            <div style="position:absolute;left:0;right:0;top:75%;height:1px;background:#10171f"></div>
+
+            <!-- ADD threshold line (τ+δ) -->
+            <div ref="{{ addLineRef }}"
+              style="position:absolute;left:0;right:0;height:0;border-top:1px dashed rgba(52,211,153,.55)">
+              <span
+                style="position:absolute;right:4px;top:-13px;font-family:'IBM Plex Mono',monospace;font-size:9px;color:#34d399">τ+δ</span>
+            </div>
+            <!-- τ threshold line -->
+            <div ref="{{ tauLineRef }}"
+              style="position:absolute;left:0;right:0;height:0;border-top:1px solid rgba(245,177,61,.6)">
+              <span ref="{{ tauReadRef }}"
+                style="position:absolute;right:4px;top:2px;font-family:'IBM Plex Mono',monospace;font-size:9px;color:#f5b13d">τ
+                0.00</span>
+            </div>
+
+            <!-- novelty fill bar -->
+            <div ref="{{ fillRef }}"
+              style="position:absolute;left:0;right:0;bottom:0;height:0;background:linear-gradient(180deg,rgba(53,214,234,.42),rgba(53,214,234,.06));border-top:2px solid #35d6ea">
+            </div>
+            <!-- spike marker dot -->
+            <div ref="{{ markerRef }}"
+              style="position:absolute;right:6px;width:8px;height:8px;border-radius:50%;background:#35d6ea;box-shadow:0 0 10px #35d6ea;bottom:0;transform:translateY(50%);transition:background .12s">
+            </div>
+          </div>
+
+          <!-- band legend -->
+          <div
+            style="display:flex;flex-direction:column;gap:4px;font-family:'IBM Plex Mono',monospace;font-size:10px;flex:none">
+            <div style="display:flex;align-items:center;gap:7px"><span
+                style="width:8px;height:8px;border-radius:2px;background:#34d399;flex:none"></span><span
+                style="color:#8a97a6">≥ τ+δ&nbsp;&nbsp;add</span></div>
+            <div style="display:flex;align-items:center;gap:7px"><span
+                style="width:8px;height:8px;border-radius:2px;background:#f5b13d;flex:none"></span><span
+                style="color:#8a97a6">τ … τ+δ&nbsp;&nbsp;update</span></div>
+            <div style="display:flex;align-items:center;gap:7px"><span
+                style="width:8px;height:8px;border-radius:2px;background:#6b7480;flex:none"></span><span
+                style="color:#8a97a6">&lt; τ&nbsp;&nbsp;&nbsp;&nbsp;skip</span></div>
+          </div>
+        </div>
+
+        <!-- ===== RIGHT: STATE COUNTS ===== -->
+        <div
+          style="position:absolute;right:22px;top:26px;display:flex;flex-direction:column;gap:9px;width:122px;font-family:'IBM Plex Mono',monospace">
+          <div style="font-size:10px;letter-spacing:.14em;color:#6c7a8a;margin-bottom:1px">SCOPE STATE</div>
+          <div style="display:flex;align-items:center;justify-content:space-between"><span
+              style="color:#34d399">ADD</span><span ref="{{ cAddRef }}" style="font-weight:600;color:#dfe7ef">0</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between"><span
+              style="color:#f5b13d">UPDATE</span><span ref="{{ cUpdRef }}"
+              style="font-weight:600;color:#dfe7ef">0</span></div>
+          <div style="display:flex;align-items:center;justify-content:space-between"><span
+              style="color:#7a838f">SKIP</span><span ref="{{ cSkipRef }}" style="font-weight:600;color:#dfe7ef">0</span>
+          </div>
+          <div style="height:1px;background:#161e27;margin:2px 0"></div>
+          <div style="display:flex;align-items:center;justify-content:space-between"><span
+              style="color:#6c7a8a">nodes</span><span ref="{{ cNodesRef }}"
+              style="font-weight:600;color:#9fb0c0">0</span></div>
+        </div>
+      </div>
+
+      <!-- ============ BOTTOM PANEL ============ -->
+      <div
+        style="display:grid;grid-template-columns:1.45fr 1fr;gap:0;border-top:1px solid #141b25;height:208px;flex:none">
+
+        <!-- routing ledger -->
+        <div style="border-right:1px solid #141b25;display:flex;flex-direction:column;min-height:0">
+          <div
+            style="display:flex;align-items:center;justify-content:space-between;padding:10px 18px;border-bottom:1px solid #11181f">
+            <span
+              style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.14em;color:#6c7a8a">ROUTING
+              LEDGER</span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#3f4a58">decision · fact · novelty ·
+              nearest</span>
+          </div>
+          <div style="flex:1;overflow:hidden;padding:4px 0">
+            <div
+              style="display:grid;grid-template-columns:42px 70px 1fr 60px;gap:4px;padding:5px 18px;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.08em;color:#42505e">
+              <span>STEP</span><span>ROUTE</span><span>CANDIDATE FACT</span><span style="text-align:right">ν</span>
+            </div>
+            <div ref="{{ ledgerRef }}"></div>
+          </div>
+        </div>
+
+        <!-- counters race + headline -->
+        <div style="display:flex;flex-direction:column;min-height:0">
+          <div style="padding:10px 20px;border-bottom:1px solid #11181f">
+            <span
+              style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.14em;color:#6c7a8a">WRITE-SIDE
+              LLM CALLS</span>
+          </div>
+          <div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:16px;padding:4px 20px">
+
+            <div>
+              <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:5px">
+                <span style="font-family:'IBM Plex Sans';font-size:12px;color:#9aa6b3">Baseline routing <span
+                    style="color:#5a6573">(mem0 · 1 call / write)</span></span>
+                <span ref="{{ baseRef }}"
+                  style="font-family:'IBM Plex Mono',monospace;font-size:20px;font-weight:600;color:#e7edf3">0</span>
+              </div>
+              <div style="height:6px;background:#0e141c;border-radius:3px;overflow:hidden">
+                <div ref="{{ baseBarRef }}"
+                  style="height:100%;width:0%;background:linear-gradient(90deg,#3a4554,#6b7480);border-radius:3px;transition:width .35s">
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:5px">
+                <span style="font-family:'IBM Plex Sans';font-size:12px;color:#9aa6b3">SAGE routing <span
+                    style="color:#5a6573">(merge call on UPDATE only)</span></span>
+                <span ref="{{ sageRef }}"
+                  style="font-family:'IBM Plex Mono',monospace;font-size:20px;font-weight:600;color:#35d6ea">0</span>
+              </div>
+              <div style="height:6px;background:#0e141c;border-radius:3px;overflow:hidden">
+                <div ref="{{ sageBarRef }}"
+                  style="height:100%;width:0%;background:linear-gradient(90deg,#1d8fa8,#35d6ea);border-radius:3px;transition:width .35s">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style="padding:12px 20px;border-top:1px solid #11181f;display:flex;align-items:baseline;gap:12px;background:linear-gradient(180deg,transparent,rgba(53,214,234,.04))">
+            <span ref="{{ ratioRef }}"
+              style="font-family:'IBM Plex Mono',monospace;font-size:34px;font-weight:600;color:#35d6ea;line-height:1;letter-spacing:-.01em">1.0×</span>
+            <span style="font-family:'IBM Plex Sans';font-size:13px;color:#9aa6b3;line-height:1.25">fewer
+              write-side<br>LLM calls</span>
+            <span ref="{{ savedRef }}"
+              style="margin-left:auto;font-family:'IBM Plex Mono',monospace;font-size:11px;color:#5a6573;text-align:right">0
+              calls<br>avoided</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </x-dc>
+  <script type="text/x-dc" data-dc-script
+    data-props="{&quot;$preview&quot;:{&quot;width&quot;:&quot;100%&quot;,&quot;height&quot;:&quot;100%&quot;},&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#35d6ea&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Look&quot;},&quot;showHeat&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Look&quot;},&quot;speed&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:1,&quot;min&quot;:0.5,&quot;max&quot;:2,&quot;step&quot;:0.1,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Playback&quot;}}">
+class Component extends DCLogic {
+  /* ============================================================
+     EDITABLE CONFIG  —  swap in your real vectors & τ values here
+     ============================================================ */
+  cfg = {
+    // ---- adaptive threshold (mirrors AdaptiveThreshold in novelty_gate.py) ----
+    tau0:        0.28,   // base threshold at empty scope
+    tauMin:      0.22,   // floor as density grows
+    densityK:    0.04,   // τ decay rate vs node count (density proxy)
+    delta:       0.12,   // hysteresis margin: ADD when ν ≥ τ+δ, UPDATE when τ ≤ ν < τ+δ
+    emaAlpha:    0.80,   // τ smoothing (EMA)
+
+    stepMs:      820,    // ms between incoming candidates  (~20s for the full stream)
+    rotSpeed:    0.16,   // sphere rotation (rad/s)
+    tilt:        -0.42,  // fixed view tilt (rad)
+    sphereFill:  0.30,   // sphere radius as fraction of min(w,h)
+
+    accent:      '#35d6ea',
+    showHeat:    true,
+
+    // ---- memory scope geometry ----------------------------------------------
+    // Each ADD opens a topic cluster centred on one of these unit anchors.
+    // (Defaults are a rotated octahedron — mutually orthogonal, so cluster
+    // openers always read as novel. Swap in your own L2-normalized vectors.)
+    anchors: {
+      A:[ 0.6442,-0.3327, 0.6887],   // identity
+      B:[ 0.7648, 0.2802,-0.5801],   // location
+      C:[ 0.0000, 0.9004, 0.4350],   // role / research
+      D:[-0.7648,-0.2802, 0.5801],   // pet
+      E:[-0.6442, 0.3327,-0.6887],   // allergy / health
+      F:[ 0.0000,-0.9004,-0.4350],   // food
+    },
+    // cosine-to-cluster-centre for the two non-opening intents. These set how
+    // novel UPDATE / SKIP candidates look; with the τ band above, updCos lands
+    // inside [τ, τ+δ] and skipCos lands below τ.  (≈ NoveltyScorer cos sim.)
+    updCos:  0.70,
+    skipCos: 0.87,
+
+    // The scripted stream. c = cluster, k = intent (add|update|skip), f = fact.
+    // ADD / UPDATE / SKIP shown below are the INTENT; the actual route is
+    // recomputed live from geometry + the current τ (route() in novelty_gate.py),
+    // so editing τ or the vectors changes the outcome faithfully.
+    stream: [
+      { c:'A', k:'add',    f:'user.name = Alex' },
+      { c:'B', k:'add',    f:'lives_in = Berlin' },
+      { c:'A', k:'update', f:'full_name = Alex Reynaud' },
+      { c:'C', k:'add',    f:'occupation = ML researcher' },
+      { c:'A', k:'skip',   f:'name = Alex' },
+      { c:'B', k:'update', f:'home = Kreuzberg, Berlin' },
+      { c:'D', k:'add',    f:'pet.dog = Mochi' },
+      { c:'C', k:'update', f:'field = representation learning' },
+      { c:'B', k:'skip',   f:'lives_in = Berlin' },
+      { c:'E', k:'add',    f:'allergy = peanuts' },
+      { c:'A', k:'update', f:'nickname = Lex' },
+      { c:'D', k:'skip',   f:'pet.dog = Mochi' },
+      { c:'C', k:'skip',   f:'works in ML' },
+      { c:'F', k:'add',    f:'fav_food = ramen' },
+      { c:'E', k:'update', f:'allergy = tree nuts too' },
+      { c:'A', k:'skip',   f:'name = Alex' },
+      { c:'B', k:'update', f:'commute = bike to work' },
+      { c:'F', k:'skip',   f:'fav_food = ramen' },
+      { c:'E', k:'skip',   f:'allergy = peanuts' },
+      { c:'C', k:'skip',   f:'role = researcher' },
+      { c:'F', k:'skip',   f:'fav_food = ramen' },
+      { c:'C', k:'update', f:'title = senior ML researcher' },
+    ],
+  };
+
+  // ---- refs ----
+  ledgerRef = React.createRef();
+  wrapRef = React.createRef();   canvasRef = React.createRef();
+  fillRef = React.createRef();   markerRef = React.createRef();   novReadRef = React.createRef();
+  tauReadRef = React.createRef(); tauLineRef = React.createRef();  addLineRef = React.createRef();
+  zoneAddRef = React.createRef(); zoneUpdRef = React.createRef();  zoneSkipRef = React.createRef();
+  cAddRef = React.createRef();    cUpdRef = React.createRef();     cSkipRef = React.createRef(); cNodesRef = React.createRef();
+  baseRef = React.createRef();    sageRef = React.createRef();     baseBarRef = React.createRef(); sageBarRef = React.createRef();
+  ratioRef = React.createRef();   savedRef = React.createRef();
+
+  renderVals() {
+    return {
+      ledgerRef: this.ledgerRef,
+      onReplay: () => this.reset(),
+      wrapRef: this.wrapRef, canvasRef: this.canvasRef,
+      fillRef: this.fillRef, markerRef: this.markerRef, novReadRef: this.novReadRef,
+      tauReadRef: this.tauReadRef, tauLineRef: this.tauLineRef, addLineRef: this.addLineRef,
+      zoneAddRef: this.zoneAddRef, zoneUpdRef: this.zoneUpdRef, zoneSkipRef: this.zoneSkipRef,
+      cAddRef: this.cAddRef, cUpdRef: this.cUpdRef, cSkipRef: this.cSkipRef, cNodesRef: this.cNodesRef,
+      baseRef: this.baseRef, sageRef: this.sageRef, baseBarRef: this.baseBarRef, sageBarRef: this.sageBarRef,
+      ratioRef: this.ratioRef, savedRef: this.savedRef,
+    };
+  }
+
+  componentDidMount() {
+    const p = this.props || {};
+    this.cfg.accent = p.accent ?? this.cfg.accent;
+    if (p.showHeat === false) this.cfg.showHeat = false;
+    if (typeof p.speed === 'number') this.cfg.stepMs = 820 / p.speed;
+
+    this.buildStream();
+    this.setupCanvas();
+    this._onResize = () => this.setupCanvas();
+    window.addEventListener('resize', this._onResize);
+    this.reset();
+    if (location.hash.includes('ff')) this.fastForward();
+    this._last = performance.now();
+    // rAF is paused when the preview isn't actively painting; drive with a
+    // self-correcting interval so the animation runs regardless.
+    this._tick = setInterval(this.loop, 1000/60);
+  }
+  componentWillUnmount() {
+    clearInterval(this._tick);
+    clearTimeout(this._spawnTimer);
+    window.removeEventListener('resize', this._onResize);
+  }
+
+  // ---------- vector helpers ----------
+  norm3(v){ const x=v[0],y=v[1],z=v[2]; const m=Math.hypot(x,y,z)||1e-9; return [x/m,y/m,z/m]; }
+  dot3(a,b){ return a[0]*b[0]+a[1]*b[1]+a[2]*b[2]; }
+
+  // Turn the cluster/intent stream into concrete unit vectors. UPDATE/SKIP
+  // candidates are placed at a controlled cosine from their cluster centre so
+  // their live novelty lands in the intended band; the route is still computed
+  // live, so this stays faithful to the gate.
+  buildStream(){
+    const tangent=(a,seed)=>{
+      const r = Math.abs(a[1])<0.9 ? [0,1,0] : [1,0,0];
+      const d = this.dot3(r,a);
+      const t1 = this.norm3([r[0]-d*a[0], r[1]-d*a[1], r[2]-d*a[2]]);
+      const t2 = [a[1]*t1[2]-a[2]*t1[1], a[2]*t1[0]-a[0]*t1[2], a[0]*t1[1]-a[1]*t1[0]];
+      const ang = seed*2.39996;   // golden-angle spread around the cluster
+      return this.norm3([
+        t1[0]*Math.cos(ang)+t2[0]*Math.sin(ang),
+        t1[1]*Math.cos(ang)+t2[1]*Math.sin(ang),
+        t1[2]*Math.cos(ang)+t2[2]*Math.sin(ang)]);
+    };
+    this._stream = this.cfg.stream.map((it,i)=>{
+      const a = this.norm3(this.cfg.anchors[it.c]);
+      let v;
+      if (it.k==='add') v = a;
+      else {
+        const cos = it.k==='update' ? this.cfg.updCos : this.cfg.skipCos;
+        const t = tangent(a, i+1), s = Math.sqrt(Math.max(0,1-cos*cos));
+        v = this.norm3([cos*a[0]+s*t[0], cos*a[1]+s*t[1], cos*a[2]+s*t[2]]);
+      }
+      return { v, f: it.f };
+    });
+  }
+
+  setupCanvas() {
+    const c = this.canvasRef.current, wrap = this.wrapRef.current;
+    if (!c || !wrap) return;
+    const r = wrap.getBoundingClientRect();
+    const dpr = Math.min(window.devicePixelRatio||1, 2);
+    this.W = r.width; this.H = r.height;
+    c.width = Math.round(r.width*dpr); c.height = Math.round(r.height*dpr);
+    const ctx = c.getContext('2d'); ctx.setTransform(dpr,0,0,dpr,0,0);
+    this.ctx = ctx;
+    this.cx = this.W*0.5; this.cy = this.H*0.5;
+    this.R = Math.min(this.W,this.H)*this.cfg.sphereFill;
+    this.buildWires();
+  }
+
+  buildWires() {
+    // meridians + parallels as 3D polylines
+    const merid=[], par=[];
+    const segs=64;
+    for (let m=0;m<8;m++){
+      const lon=(m/8)*Math.PI*2, line=[];
+      for(let i=0;i<=segs;i++){ const lat=-Math.PI/2+(i/segs)*Math.PI;
+        line.push([Math.cos(lat)*Math.cos(lon),Math.sin(lat),Math.cos(lat)*Math.sin(lon)]); }
+      merid.push(line);
+    }
+    for (let pll=1;pll<6;pll++){
+      const lat=-Math.PI/2+(pll/6)*Math.PI, line=[];
+      for(let i=0;i<=segs;i++){ const lon=(i/segs)*Math.PI*2;
+        line.push([Math.cos(lat)*Math.cos(lon),Math.sin(lat),Math.cos(lat)*Math.sin(lon)]); }
+      par.push(line);
+    }
+    this.wires=merid.concat(par);
+  }
+
+  // ---------- run control ----------
+  reset() {
+    clearTimeout(this._spawnTimer);
+    this.theta = 0.6;
+    this.nodes = [];        // {v,size,dens,addFlash,updFlash}
+    this.particles = [];    // in-flight + falling
+    this.idx = 0;
+    this.counts = { ADD:0, UPDATE:0, SKIP:0 };
+    this.baseCalls = 0; this.sageCalls = 0;
+    this.tau = this.cfg.tau0;
+    this.dispNov = 0; this.targetNov = 0;
+    if (this.ledgerRef.current) this.ledgerRef.current.innerHTML = '';
+    this.paintPanels();
+    this._spawnTimer = setTimeout(this.spawn, 700);
+  }
+
+  tauNow() {
+    // adaptive: relaxes as node count (density proxy) grows; EMA-smoothed
+    const inst = this.cfg.tauMin + (this.cfg.tau0 - this.cfg.tauMin) * Math.exp(-this.cfg.densityK * this.nodes.length);
+    this.tau = this.cfg.emaAlpha*this.tau + (1-this.cfg.emaAlpha)*inst;
+    return this.tau;
+  }
+
+  noveltyOf(v) {
+    if (!this.nodes.length) return 1.0;            // empty scope -> maximally novel
+    let best=-1, bi=-1;
+    for (let i=0;i<this.nodes.length;i++){ const s=this.dot3(v,this.nodes[i].v); if(s>best){best=s;bi=i;} }
+    return { nov: Math.max(0, Math.min(1, 1-best)), nearest: bi };
+  }
+
+  // Route one candidate (shared by the animated path and the fast-forward).
+  // The MODEL is advanced here at route time — the node is created / bumped
+  // immediately so the next candidate's novelty is correct regardless of how
+  // the (cosmetic) flight animation is keeping up. Mirrors route() + the two
+  // counter semantics.
+  routeStep(item){
+    const v = this.norm3(item.v);
+    const r = this.noveltyOf(v);
+    const nov = (typeof r === 'number') ? r : r.nov;
+    const nearest = (typeof r === 'number') ? -1 : r.nearest;
+    const tau = this.tauNow();
+
+    let decision;
+    if (nov >= tau + this.cfg.delta) decision='ADD';
+    else if (nov >= tau)            decision='UPDATE';
+    else                            decision='SKIP';
+
+    this.baseCalls += 1;                          // baseline: 1 LLM call per write
+    if (decision==='UPDATE') this.sageCalls += 1; // SAGE: merge call only on UPDATE
+    this.counts[decision] += 1;
+
+    // advance the geometric model now
+    let nodeIdx = -1;
+    if (decision==='ADD'){
+      this.nodes.push({ v, size:1, dens:0, densN:0, addFlash:0, updFlash:0, appear:0 });
+      nodeIdx = this.nodes.length-1;
+    } else if (decision==='UPDATE' && nearest>=0){
+      nodeIdx = nearest;
+    }
+
+    const chip = {
+      ADD:   {bg:'rgba(52,211,153,.14)', fg:'#34d399'},
+      UPDATE:{bg:'rgba(245,177,61,.14)', fg:'#f5b13d'},
+      SKIP:  {bg:'rgba(107,116,128,.12)',fg:'#8a949f'},
+    }[decision];
+    this.pushLedger(String(this.idx+1).padStart(2,'0'), decision, item.f, nov.toFixed(2), chip);
+    this.idx += 1;
+    return { decision, v, nov, nearest, nodeIdx };
+  }
+
+  pushLedger(step, decision, label, nov, chip){
+    const box = this.ledgerRef.current; if(!box) return;
+    const row = document.createElement('div');
+    row.style.cssText = "display:grid;grid-template-columns:42px 70px 1fr 60px;gap:4px;align-items:center;padding:4px 18px;font-family:'IBM Plex Mono',monospace;font-size:11px;border-bottom:1px solid #0c1219";
+    const c = s => { const e=document.createElement('span'); e.style.cssText=s; return e; };
+    const sStep=c('color:#4f5b69'); sStep.textContent=step;
+    const sChip=c(`background:${chip.bg};color:${chip.fg};font-size:10px;font-weight:600;letter-spacing:.06em;text-align:center;padding:2px 0;border-radius:3px`); sChip.textContent=decision;
+    const sLab=c('color:#aab6c3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis'); sLab.textContent=label;
+    const sNov=c('text-align:right;color:#8794a2'); sNov.textContent=nov;
+    row.append(sStep,sChip,sLab,sNov);
+    box.insertBefore(row, box.firstChild);
+    while (box.children.length > 8) box.removeChild(box.lastChild);
+  }
+
+  spawn = () => {
+    if (this.idx >= this._stream.length) { return; }   // sequence complete
+    const item = this._stream[this.idx];
+    const { decision, v, nov, nearest, nodeIdx } = this.routeStep(item);
+
+    // gauge spike
+    this.targetNov = nov; this.dispNov = nov;
+
+    // cosmetic particle entering from the left toward its resolution point
+    const targetV = (decision==='UPDATE' && nearest>=0) ? this.nodes[nearest].v : v;
+    const sp = this.project(targetV);
+    this.particles.push({
+      kind:'fly', decision, v, nodeIdx, label:item.f,
+      sx: -40, sy: sp.y, start: performance.now(), dur:0.55, x0:-40, y0:sp.y,
+    });
+
+    this.paintPanels();
+    this._spawnTimer = setTimeout(this.spawn, this.cfg.stepMs);
+  };
+
+  // Synchronous end-state (no flight) — used to verify the populated scope.
+  fastForward(){
+    clearTimeout(this._spawnTimer);
+    while (this.idx < this._stream.length){
+      const { nodeIdx, decision } = this.routeStep(this._stream[this.idx]);
+      if (nodeIdx>=0){ this.nodes[nodeIdx].appear=1;
+        if (decision==='UPDATE') this.nodes[nodeIdx].size=Math.min(3.4,this.nodes[nodeIdx].size+0.55); }
+    }
+    this.computeDensity();
+    this.paintPanels();
+  }
+
+  // ---------- projection ----------
+  rot(v){
+    const t=this.theta, ti=this.cfg.tilt;
+    // Ry(theta)
+    let x = v[0]*Math.cos(t)+v[2]*Math.sin(t);
+    let z = -v[0]*Math.sin(t)+v[2]*Math.cos(t);
+    let y = v[1];
+    // Rx(tilt)
+    const y2 = y*Math.cos(ti)-z*Math.sin(ti);
+    const z2 = y*Math.sin(ti)+z*Math.cos(ti);
+    return [x,y2,z2];
+  }
+  project(v){
+    const p=this.rot(v);
+    return { x:this.cx+this.R*p[0], y:this.cy-this.R*p[1], z:p[2], front:(p[2]+1)/2 };
+  }
+
+  // ---------- main loop ----------
+  loop = () => {
+    const now = performance.now();
+    const dt = Math.min(0.05,(now-this._last)/1000); this._last=now;
+    this.theta += this.cfg.rotSpeed*dt;
+
+    // node flashes decay; freshly-added nodes ease into view
+    for (const n of this.nodes){ n.addFlash=Math.max(0,n.addFlash-dt*2.2); n.updFlash=Math.max(0,n.updFlash-dt*2.0);
+      n.appear=(n.appear||0)+(1-(n.appear||0))*Math.min(1,dt*8); }
+    // density recompute occasionally
+    this._densT=(this._densT||0)+dt; if(this._densT>0.18){ this._densT=0; this.computeDensity(); }
+
+    this.updateParticles(now);
+    this.render();
+
+    // gauge ease back toward baseline τ between points
+    this.dispNov += (this.targetNov - this.dispNov)*Math.min(1,dt*6);
+    this.targetNov *= Math.pow(0.5, dt/0.9);   // slow decay of the spike
+    this.paintGauge();
+    this.paintPanels();
+  };
+
+  computeDensity(){
+    let mx=1e-6;
+    for(const n of this.nodes){
+      let d=0;
+      for(const m of this.nodes){ const c=this.dot3(n.v,m.v); d += Math.exp((c-1)*6); }
+      d += (n.size-1)*1.4;
+      n.dens=d; if(d>mx)mx=d;
+    }
+    for(const n of this.nodes) n.densN = n.dens/mx;
+  }
+
+  updateParticles(now){
+    const ease=t=>1-Math.pow(1-t,3);
+    for(let i=this.particles.length-1;i>=0;i--){
+      const p=this.particles[i];
+      if(p.kind==='fly'){
+        const k=Math.min(1,(now-p.start)/(p.dur*1000));   // wall-clock progress
+        const tgtNode = (p.nodeIdx>=0 && this.nodes[p.nodeIdx]) ? this.nodes[p.nodeIdx].v : p.v;
+        const tp=this.project(tgtNode);
+        p.sx = p.x0 + (tp.x-p.x0)*ease(k);
+        p.sy = p.y0 + (tp.y-p.y0)*ease(k);
+        if(k>=1){ this.resolveParticle(p); this.particles.splice(i,1); }
+      } else if(p.kind==='fall'){
+        const e=(now-p.start)/1000; p.sy=p.sy0+(60*e+60*e*e); p.sx=p.sx0+p.vx*e;
+        if(e>0.9) this.particles.splice(i,1);
+      }
+    }
+  }
+
+  resolveParticle(p){
+    if(p.decision==='ADD' && p.nodeIdx>=0 && this.nodes[p.nodeIdx]){
+      const n=this.nodes[p.nodeIdx]; n.appear=1; n.addFlash=1;
+    } else if(p.decision==='UPDATE' && p.nodeIdx>=0 && this.nodes[p.nodeIdx]){
+      const n=this.nodes[p.nodeIdx]; n.size=Math.min(3.4,n.size+0.55); n.updFlash=1;
+    } else if(p.decision==='SKIP'){ // falling ghost
+      const sp=this.project(p.v);
+      this.particles.push({ kind:'fall', sx:sp.x, sy:sp.y, sx0:sp.x, sy0:sp.y, start:performance.now(), vx:(Math.random()-0.5)*30, decision:'SKIP' });
+    }
+  }
+
+  // ---------- render ----------
+  render(){
+    const ctx=this.ctx; if(!ctx) return;
+    ctx.clearRect(0,0,this.W,this.H);
+
+    // faint backdrop glow behind sphere
+    const g=ctx.createRadialGradient(this.cx,this.cy,0,this.cx,this.cy,this.R*1.5);
+    g.addColorStop(0,'rgba(53,214,234,.05)'); g.addColorStop(1,'rgba(53,214,234,0)');
+    ctx.fillStyle=g; ctx.beginPath(); ctx.arc(this.cx,this.cy,this.R*1.5,0,7); ctx.fill();
+
+    // wire sphere — back hemisphere dim, front brighter
+    for(const line of this.wires){
+      for(let i=0;i<line.length-1;i++){
+        const s=this.project(line[i]), e=this.project(line[i+1]);
+        const fr=( (s.front+e.front)/2 );
+        ctx.beginPath(); ctx.moveTo(s.x,s.y); ctx.lineTo(e.x,e.y);
+        ctx.strokeStyle=`rgba(96,150,176,${0.10+0.30*fr})`; ctx.lineWidth=1; ctx.stroke();
+      }
+    }
+    // bright rim
+    ctx.beginPath(); ctx.arc(this.cx,this.cy,this.R,0,7);
+    ctx.strokeStyle='rgba(140,175,200,0.34)'; ctx.lineWidth=1.2; ctx.stroke();
+
+    // depth sort nodes
+    const sorted=this.nodes.map(n=>({n,p:this.project(n.v)})).sort((a,b)=>a.p.z-b.p.z);
+
+    // heat field (additive node glows)
+    if(this.cfg.showHeat){
+      ctx.globalCompositeOperation='lighter';
+      for(const {n,p} of sorted){
+        const fr=0.45+0.55*p.front;
+        const ap=(n.appear==null?1:n.appear);
+        const rad=Math.max(1,(14+n.size*7+ (n.densN||0)*16)*fr*ap);
+        const col=this.heat(n.densN||0);
+        const gg=ctx.createRadialGradient(p.x,p.y,0,p.x,p.y,rad);
+        gg.addColorStop(0,`rgba(${col},${0.18*fr*ap})`); gg.addColorStop(1,`rgba(${col},0)`);
+        ctx.fillStyle=gg; ctx.beginPath(); ctx.arc(p.x,p.y,rad,0,7); ctx.fill();
+      }
+      ctx.globalCompositeOperation='source-over';
+    }
+
+    // node dots
+    for(const {n,p} of sorted){
+      const fr=0.4+0.6*p.front;
+      const ap=(n.appear==null?1:n.appear);
+      const base=(2.0+n.size*1.0)*(0.4+0.6*ap);
+      // update flash ring
+      if(n.updFlash>0){ ctx.beginPath(); ctx.arc(p.x,p.y,base+6*(n.updFlash),0,7);
+        ctx.strokeStyle=`rgba(245,177,61,${0.5*n.updFlash})`; ctx.lineWidth=1.5; ctx.stroke(); }
+      // dot
+      let r=base*fr;
+      ctx.beginPath(); ctx.arc(p.x,p.y,r,0,7);
+      let fill;
+      if(n.addFlash>0)      fill=`rgba(52,211,153,${0.55+0.45*fr})`;
+      else if(n.updFlash>0) fill=`rgba(245,177,61,${0.5+0.4*fr})`;
+      else                  fill=`rgba(205,233,242,${0.45+0.5*fr})`;
+      ctx.fillStyle=fill; ctx.fill();
+      if(p.front>0.5){ ctx.beginPath(); ctx.arc(p.x,p.y,r*0.45,0,7); ctx.fillStyle=`rgba(255,255,255,${0.6*fr})`; ctx.fill(); }
+    }
+
+    // particles
+    for(const p of this.particles){
+      if(p.kind==='fly'){
+        // trailing streak from left
+        ctx.beginPath(); ctx.moveTo(p.sx-26,p.sy); ctx.lineTo(p.sx,p.sy);
+        const grad=ctx.createLinearGradient(p.sx-26,0,p.sx,0);
+        grad.addColorStop(0,'rgba(53,214,234,0)'); grad.addColorStop(1,'rgba(53,214,234,.5)');
+        ctx.strokeStyle=grad; ctx.lineWidth=1.5; ctx.stroke();
+        ctx.beginPath(); ctx.arc(p.sx,p.sy,3.2,0,7); ctx.fillStyle='#dff7fb'; ctx.fill();
+        ctx.beginPath(); ctx.arc(p.sx,p.sy,7,0,7); ctx.fillStyle='rgba(53,214,234,.18)'; ctx.fill();
+      } else {
+        const a=Math.max(0,1-(performance.now()-p.start)/900);
+        ctx.beginPath(); ctx.arc(p.sx,p.sy,2.6,0,7); ctx.fillStyle=`rgba(120,130,143,${a})`; ctx.fill();
+      }
+    }
+  }
+
+  heat(t){ // cool blue -> cyan -> amber -> red
+    const stops=[[20,64,110],[31,147,196],[232,161,58],[226,80,58]];
+    t=Math.max(0,Math.min(1,t))*3; const i=Math.floor(t), f=t-i;
+    const a=stops[Math.min(i,3)], b=stops[Math.min(i+1,3)];
+    return `${Math.round(a[0]+(b[0]-a[0])*f)},${Math.round(a[1]+(b[1]-a[1])*f)},${Math.round(a[2]+(b[2]-a[2])*f)}`;
+  }
+
+  // ---------- DOM panels ----------
+  paintGauge(){
+    const tau=this.tau, add=Math.min(1,tau+this.cfg.delta);
+    const set=(ref,fn)=>{ if(ref.current) fn(ref.current); };
+    set(this.tauLineRef, e=>e.style.bottom=(tau*100)+'%');
+    set(this.addLineRef, e=>e.style.bottom=(add*100)+'%');
+    set(this.zoneSkipRef,e=>e.style.height=(tau*100)+'%');
+    set(this.zoneUpdRef, e=>{ e.style.bottom=(tau*100)+'%'; e.style.height=((add-tau)*100)+'%'; });
+    set(this.zoneAddRef, e=>e.style.height=((1-add)*100)+'%');
+    set(this.tauReadRef, e=>e.textContent='τ '+tau.toFixed(2));
+
+    const nv=Math.max(0,Math.min(1,this.dispNov));
+    const col = nv>=add ? '#34d399' : nv>=tau ? '#f5b13d' : '#6b7480';
+    set(this.fillRef, e=>{ e.style.height=(nv*100)+'%';
+      e.style.borderTopColor=col; e.style.background=`linear-gradient(180deg,${this.hexA(col,.4)},${this.hexA(col,.05)})`; });
+    set(this.markerRef, e=>{ e.style.bottom=(nv*100)+'%'; e.style.background=col; e.style.boxShadow=`0 0 10px ${col}`; });
+    set(this.novReadRef, e=>{ e.textContent=nv.toFixed(2); e.style.color=col; });
+  }
+  hexA(h,a){ const n=parseInt(h.slice(1),16); return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},${a})`; }
+
+  paintPanels(){
+    const T=(ref,v)=>{ if(ref.current) ref.current.textContent=v; };
+    T(this.cAddRef,this.counts.ADD); T(this.cUpdRef,this.counts.UPDATE); T(this.cSkipRef,this.counts.SKIP);
+    T(this.cNodesRef,this.nodes.length);
+    T(this.baseRef,this.baseCalls); T(this.sageRef,this.sageCalls);
+    const tot=Math.max(1,this._stream.length);
+    if(this.baseBarRef.current) this.baseBarRef.current.style.width=(this.baseCalls/tot*100)+'%';
+    if(this.sageBarRef.current) this.sageBarRef.current.style.width=(this.sageCalls/tot*100)+'%';
+    const ratio = this.baseCalls/Math.max(1,this.sageCalls);
+    T(this.ratioRef, (this.sageCalls===0 ? '∞' : ratio.toFixed(1))+'×');
+    T(this.savedRef, (this.baseCalls-this.sageCalls)+' calls\navoided');
+    if(this.savedRef.current) this.savedRef.current.innerHTML=(this.baseCalls-this.sageCalls)+' calls<br>avoided';
+  }
+}
+</script>
+</body>
+
+</html>
