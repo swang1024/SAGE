@@ -40,6 +40,30 @@ of these numbers regenerate from vendored result summaries — see
 [`evaluation/README.md`](evaluation/README.md) and
 [`evaluation/paper_results/`](evaluation/paper_results/).
 
+## Results (LongMemEval-S, gpt-4o-mini)
+
+The same comparison at ~25× the scale: full LongMemEval-S (500 questions, each with its
+own ~115k-token haystack of 40–50 chat sessions), gpt-4o-mini backbone and judge,
+mean of 3 independent end-to-end repeats per arm:
+
+| | mem0 | SAGE |
+|---|---|---|
+| Write-side LLM calls | 73,286 | 43,037 (**≈41% fewer**) |
+| Write-side total tokens | 165.1M | 91.6M (**≈44% fewer**) |
+| Generated (completion) tokens | 18.7M | 2.1M (**≈8.9× fewer**) |
+| Ingestion wall-clock | 1,529 min | 215 min (**≈7.1× faster**) |
+| LLM-judge accuracy | 58.0 | 62.7 (**+4.7 points**) |
+
+The accuracy gain is significant in each of the three paired question-level bootstraps
+(p = 0.0001 / 0.022 / 0.029) and concentrates on the question types where redundant
+memories crowd out top-k retrieval: knowledge-update +11.9, multi-session +8.7,
+temporal-reasoning +5.8 points. The ingestion gap widens from 2.5× on LoCoMo to 7.1×
+here because mem0's update-decision prompts grow with the memory store while the gate's
+density test keeps write throughput flat. On an open-weight qwen2.5-3b backbone the two
+arms are at statistical parity on accuracy with the same efficiency advantage; that
+run, the full protocol, per-question-type breakdowns, and reproduction commands are in
+[`evaluation/LONGMEMEVAL_RESULTS.md`](evaluation/LONGMEMEVAL_RESULTS.md).
+
 ## Repository layout
 
 This repo is the mem0 library with the SAGE contribution plus an evaluation harness;
@@ -54,6 +78,7 @@ mem0/                       # the memory library (mem0 core + SAGE)
 evaluation/                 # LOCOMO benchmark harness, run scripts, table generators
   README.md                 #   how to run the benchmark and reproduce the paper tables
   paper_results/            #   vendored result summaries the tables are built from
+  LONGMEMEVAL_RESULTS.md    #   LongMemEval-S protocol, full results, reproduction
 tests/                      # tests for the library and the SAGE gate
 ```
 
